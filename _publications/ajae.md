@@ -4,6 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/ajae
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12479'
+slidesurl: 'https://www.dropbox.com/scl/fi/fwxjdti81lot61jtgwkyr/AJAE-slides.pdf?rlkey=op6t73upmgrb3duyye2esq8pu&dl=0'
 date: 2025-01
 ---
 Is liquidity provision informative? Evidence from agricultural futures markets with Teresa Serra (co-authored). American Journal of Agricultural Economics (field top 1, ABS ranking 3) 107, January 2025, p. 125-151. 
