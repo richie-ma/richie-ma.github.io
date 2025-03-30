@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. student and member of [Office for Futures and Options Research (OFOR](https://ofor.illinois.edu/), University of Illinois at Urbana-Champaign. 
+I'm a Ph.D. student and member of [Office for Futures and Options Research (OFOR)](https://ofor.illinois.edu/), University of Illinois at Urbana-Champaign. 
 
 My research interests are market microstructure and electronic trading in financial markets.
 
