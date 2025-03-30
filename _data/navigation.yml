@@ -13,6 +13,9 @@ main:
 
   - title: "Teaching"
     url: /teaching/    
+
+  - title: "Programming packages"
+    url: /Rpackage/
     
  # - title: "Portfolio"
  #   url: /portfolio/
