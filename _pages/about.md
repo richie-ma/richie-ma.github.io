@@ -15,6 +15,9 @@ My research interests are market microstructure and electronic trading in financ
 ====
 336 OFOR Data Room, Mumford Hall, 1301 W. Greogry Dr., Urbana, IL 61801.
 
+[Curriculum Vitae PDF](https://www.dropbox.com/scl/fi/bwd0dk2lyiwgaaff9mi9y/Richie_Ma_CV.pdf?rlkey=o4klbwaz39lvtgj994q49f26j&dl=0); [Homgpage@UIUC](https://ace.illinois.edu/directory/ruchuan2)
+
+
 **News**
 ====
 The R package `cme.mdp` has been published in my [Github](https://github.com/richie-ma/cme.mdp). Comments and Suggestions are welcomed!
