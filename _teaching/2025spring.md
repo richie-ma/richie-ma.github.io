@@ -3,7 +3,7 @@ title: "IE 421 High Frequency Trading Technology"
 collection: teaching
 type: "Undergrad & Graduate courses"
 permalink: /teaching/2025spring
-venue: "Department of Industrial & Enterprise Systems Engineering, University of Illinois at Urbana-Champaign"
+venue: "Department of Industrial & Enterprise Systems Engineering, The Grainger College of Engineering, UIUC"
 date: 2025-01-21
 location: "Urbana, IL"
 ---
