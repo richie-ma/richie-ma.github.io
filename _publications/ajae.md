@@ -6,7 +6,7 @@ permalink: /publication/ajae
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12479'
 slidesurl: 'https://www.dropbox.com/scl/fi/fwxjdti81lot61jtgwkyr/AJAE-slides.pdf?rlkey=op6t73upmgrb3duyye2esq8pu&dl=0'
 venue: 'American Journal of Agricultural Economics'
-date: "2025-01"
+date: 2025-01
 ---
 Using the order book directly reconstructed by the Market by Order (MBO) data and also providing evidence on the revolution of price discovery during the public WASDE announcement, thus subsuming the results of my Master thesis at UIUC.
 
