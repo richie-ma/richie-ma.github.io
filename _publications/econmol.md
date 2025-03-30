@@ -4,6 +4,6 @@ collection: publications
 category: manuscripts
 permalink: /publication/econmol
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0264999320311962?via%3Dihub'
-venue: 'Energy Economics' 
+venue: 'Economic Modelling' 
 date: 2020-09-12
 ---
