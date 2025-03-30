@@ -17,6 +17,7 @@ author_profile: true
 <h2> Working papers </h2>
 {% for post in site.publications reversed %}
 {% if post.pubtype == 'working_paper' %}
+  {% include archive-single.html %}
     {% endif %}
 {% endfor %}
 
