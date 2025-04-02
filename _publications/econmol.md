@@ -1,5 +1,5 @@
 ---
-title: "1. Price explosiveness in nonferrous metal futures markets"
+title: "[1] Price explosiveness in nonferrous metal futures markets"
 collection: publications
 pubtype: publication
 category: manuscripts
