@@ -1,5 +1,5 @@
 ---
-title: "3. Is liquidity provision informative? Evidence from agricultural futures markets"
+title: "[3] Is liquidity provision informative? Evidence from agricultural futures markets"
 collection: publications
 pubtype: publication
 category: manuscripts
