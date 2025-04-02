@@ -1,5 +1,5 @@
 ---
-title: "2. Tick size and price discovery: Futures-options evidence"
+title: "[2] Tick size and price discovery: Futures-options evidence"
 collection: publications
 pubtype: working_paper
 category: manuscripts
