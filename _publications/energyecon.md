@@ -1,5 +1,5 @@
 ---
-title: "The Russia-Saudi Arabia oil price war during the COVID-19 pandemic"
+title: "2. The Russia-Saudi Arabia oil price war during the COVID-19 pandemic"
 collection: publications
 category: manuscripts
 pubtype: publication
