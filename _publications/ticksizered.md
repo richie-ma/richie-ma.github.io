@@ -1,5 +1,5 @@
 ---
-title: "1. One-tick futures: Does tick size reduction better markets?"
+title: "[1] One-tick futures: Does tick size reduction better markets?"
 collection: publications
 pubtype: working_paper
 category: manuscripts
