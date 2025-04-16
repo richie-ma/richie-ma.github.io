@@ -24,7 +24,3 @@ My research interests are market microstructure and electronic trading in financ
 ====
 --- The R package `cme.mdp` coauthored with Brian Peterson has been published in my [Github](https://github.com/richie-ma/cme.mdp). Comments and Suggestions are welcomed!
 
---- The proposal of this package has been acceptted at 2025 [Open Source Quantitative Finance (osQF) (R/Finance) Conference](https://web.cvent.com/event/a9d24c0f-b4e9-4807-8000-b7f1a5c4959f/summary) and I will give a small talk on April 11 and 12 in Chicago.
-
---- [Tentative slides](https://www.dropbox.com/scl/fi/6i6fax988nu9flqml5z8d/cme_mbp_slides.pdf?rlkey=y0uuw856dykv8qyg1a25nz8wd&dl=0)
-
