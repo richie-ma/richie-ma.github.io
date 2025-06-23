@@ -23,5 +23,6 @@ My research interests are market microstructure, electronic trading, and financi
 **News**
 ====
 --- The R package `cme.mdp` coauthored with Brian Peterson has been published in my [Github](https://github.com/richie-ma/cme.mdp). Comments and Suggestions are welcomed!
+
 --- I have mirrored the R package `cme.mdp` to a Python package 'cmemdp'. This package includes all features in the R `cme.mdp` and I also provide a parser for the CME raw dataset, Packet Capture (PCAP) data. It has been published in my [Github repo](https://github.com/richie-ma/cmemdp). Comments and Suggestions are welcomed. 
 
