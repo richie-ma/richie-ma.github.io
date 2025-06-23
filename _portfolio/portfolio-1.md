@@ -1,7 +1,5 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "cme.mdp: Clean and Analyze Chicago Mercantile Exchange Market Data in R"
+excerpt: "--- Authors: Richie R. Ma and Brian G. Peterson <br/> --- The goal of `cme.mdp` is to clean Chicago Mercantile Exchange (CME) market data with FIX protocol more easily (pretty user-friendly) in the R environment, including but not limited to trade summaries, quote updates, and limit order book reconstruction. This package is not restricted to only the agricultural futures markets, and it could be used in energy, metal, treasury, FX, and stock index futures as well. <br/> --- Market microstructure researchers can use this package to obtain high-quality market data that are ready to use for their research inputs. This package is user-friendly, and users tell where the data are stored and the results are in a good and easy-to-manipulate format. It can apply to any data products under FIX protocol, including Market by Price (MBP) and Market by Order (MBO). No strong prior knowledge is needed for the CME datasets."
 collection: portfolio
 ---
-
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
