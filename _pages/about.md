@@ -9,7 +9,7 @@ redirect_from:
 
 I'm a Ph.D. student and member of [Office for Futures and Options Research (OFOR)](https://ofor.illinois.edu/), University of Illinois at Urbana-Champaign. 
 
-My research interests are market microstructure and electronic trading in financial markets.
+My research interests are market microstructure, electronic trading, and financial data engineering.
 
 **Contact**
 ====
@@ -23,4 +23,5 @@ My research interests are market microstructure and electronic trading in financ
 **News**
 ====
 --- The R package `cme.mdp` coauthored with Brian Peterson has been published in my [Github](https://github.com/richie-ma/cme.mdp). Comments and Suggestions are welcomed!
+--- I have mirrored the R package `cme.mdp` to a Python package 'cmemdp'. This package includes all features in the R `cme.mdp` and I also provide a parser for the CME raw dataset, Packet Capture (PCAP) data. It has been published in my [Github repo](https://github.com/richie-ma/cmemdp). Comments and Suggestions are welcomed. 
 
