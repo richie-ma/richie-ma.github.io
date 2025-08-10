@@ -5,27 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include base_path %}
-
-<h2> Publications </h2>
-{% for post in site.publications reversed %}
-{% if post.pubtype == 'publication' %}
-  {% include archive-single.html %}
-    {% endif %}
-{% endfor %}
-
-<h2> Working papers </h2>
-{% for post in site.publications reversed %}
-{% if post.pubtype == 'working_paper' %}
-  {% include archive-single.html %}
-    {% endif %}
-{% endfor %}
-
-<h2> Work in progress </h2>
-{% for post in site.publications reversed %}
-{% if post.pubtype == 'workprogress' %}
-  {% include archive-single.html %}
-    {% endif %}
-{% endfor %}
+### Research in progress <a name="in-progress"></a>
+- **test test**
 
 
