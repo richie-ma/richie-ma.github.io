@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. student and member of [Office for Futures and Options Research (OFOR)](https://ofor.illinois.edu/), University of Illinois at Urbana-Champaign. 
+I'm a Ph.D. student and member of [Office for Futures and Options Research (OFOR)](https://ofor.illinois.edu/), University of Illinois at Urbana-Champaign. I will be at 2025-2026 job market.
 
 My research interests are market microstructure, electronic trading, and financial data engineering.
 
-### Contact <a name="JM"></a>
+# Contact
 ====
 336 OFOR Data Room, Mumford Hall, 1301 W. Greogry Dr., Urbana, IL 61801.
 
@@ -20,7 +20,7 @@ My research interests are market microstructure, electronic trading, and financi
 --- [Curriculum Vitae PDF](https://www.dropbox.com/scl/fi/bwd0dk2lyiwgaaff9mi9y/Richie_Ma_CV.pdf?rlkey=o4klbwaz39lvtgj994q49f26j&dl=0); [Homgpage@UIUC](https://ace.illinois.edu/directory/ruchuan2)
 
 
-**News**
+# News
 ====
 --- The R package `cme.mdp` coauthored with Brian Peterson has been published in my [Github](https://github.com/richie-ma/cme.mdp). Comments and Suggestions are welcomed!
 
