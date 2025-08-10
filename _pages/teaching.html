@@ -5,10 +5,10 @@ permalink: /teaching/
 author_profile: true
 ---
 
-University of Illinois at Urbana-Champaign
-======
+{% include base_path %}
 
-*FIN 554 Algorithmic Trading Systems Design and Testing -- Fall 2025
-*IE 421 High Frequency Trading Technology -- Spring 2025
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 
 
