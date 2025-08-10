@@ -26,9 +26,13 @@
       </div>
     {% endif %}
 
-<h2 class="archive__item-title" itemprop="headline" style="font-size: 1.8em;">
+<h2 class="archive__item-title" itemprop="headline">
   {{ title }}
 </h2>
+
+<div style="font-size:1.2em; line-height:1.5;">
+  {{ post.content }}
+</div>
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
