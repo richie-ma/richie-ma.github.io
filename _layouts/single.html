@@ -44,8 +44,10 @@ layout: default
         </header>
       {% endunless %}
 
-      <section class="page__content" style="font-size:1.2em; line-height:1.6;">
-        {{ content }}
+<section class="page__content" style="font-size:1.2em; line-height:1.6;">
+  {{ content }}
+</section>
+
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
