@@ -14,7 +14,7 @@ My research interests are market microstructure, electronic trading, and financi
 ## Contact
 336 OFOR Data Room, Mumford Hall, 1301 W. Greogry Dr., Urbana, IL 61801.
 
-* Email: `ruchuan2` `[at]` `illinois` `[dot]` `edu`
+* Email: [ruchuan2@illinois.edu](mailto:ruchuan2@illinois.edu)
 
 * [Curriculum Vitae PDF](https://www.dropbox.com/scl/fi/bwd0dk2lyiwgaaff9mi9y/Richie_Ma_CV.pdf?rlkey=o4klbwaz39lvtgj994q49f26j&dl=0); [Homgpage@UIUC](https://ace.illinois.edu/directory/ruchuan2)
 
