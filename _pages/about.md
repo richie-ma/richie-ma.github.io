@@ -10,7 +10,10 @@ redirect_from:
 I'm a Ph.D. student and member of [Office for Futures and Options Research (OFOR)](https://ofor.illinois.edu/), University of Illinois at Urbana-Champaign. I will be at 2025-2026 job market.
 
 # Research Interests
-Futures Markets, Fiancial Market Microstructure, Electronic Trading, and Financial Data Engineering.
+* Futures Markets
+* Fiancial Market Microstructure
+* Electronic Trading
+* Financial Data Engineering
 
 # Contact
 336 OFOR Data Room, Mumford Hall, 1301 W. Greogry Dr., Urbana, IL 61801.
