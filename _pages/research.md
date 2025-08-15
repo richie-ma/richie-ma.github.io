@@ -17,7 +17,7 @@ author_profile: true
 [**Price explosiveness in nonferrous metal futures markets**](https://www.sciencedirect.com/science/article/pii/S0264999320311962?via%3Dihub) with Tao Xiong, ***Economic Modelling***, January 2021
 
 # Working papers
-**More is Better? Implied functionality in agricultural futures trading** with Teresa Serra (Draft coming soon)
+**More is Better? Implied functionality in agricultural futures trading** with Teresa Serra
 * <span style="font-size:16px;">**Draft coming soon**
 
 **Tick size and price discovery: Futures-options evidence** with Teresa Serra
