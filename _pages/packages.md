@@ -8,6 +8,7 @@ The OFOR and I are committed to developing user-friendly functions and packages 
 [**cme.mdp: Clean and Analyze Chicago Mercantile Exchange Market Data in R**](https://github.com/richie-ma/cme.mdp) with Brian G. Peterson
 * <span style="font-size: 16px;">The goal of `cme.mdp` is to clean Chicago Mercantile Exchange (CME) market data with FIX protocol more easily (pretty user-friendly) in the R environment, including but not limited to trade summaries, quote updates, and limit order book reconstruction. This package is not restricted to only the agricultural futures markets, and it could be used in energy, metal, treasury, FX, and stock index futures as well.</span>
 * <span style="font-size: 16px;">Market microstructure researchers can use this package to obtain high-quality market data that are ready to use for their research inputs. This package is user-friendly, and users tell where the data are stored and the results are in a good and easy-to-manipulate format. It can apply to any data products under FIX protocol, including Market by Price (MBP) and Market by Order (MBO). No strong prior knowledge is needed for the CME datasets.</span>
+* <span style="font-size: 16px;"> **Presentations**: 2025 Open Source Quantitative Finance (osQF) Conference [Slides](https://www.dropbox.com/scl/fi/i60oj6thim6zm967d5aky/osQF_Richie_Ma_presentation.pdf?rlkey=y6q40zv78dchony02e98vb2k8&dl=0)
 
 ![](book_bar.gif)
 
