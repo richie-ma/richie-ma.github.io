@@ -13,4 +13,12 @@ The OFOR and I are committed to developing user-friendly functions and packages 
 
 [**cmemdp: Clean and Analyze Chicago Mercantile Exchange Market Data in Python**](https://github.com/richie-ma/cmemdp)
 * <span style="font-size: 16px;">The Python package `cmemdp` is inspired by the R package `cme.mdp`. The cmemdp covers almost all features in that package and it also includes other important functions, e.g., CME Packet Capture (PCAP) data cleaning.</span>
+
+```python
+# Sequence | Time | Message Size | Block Length | Template ID | Schemal ID | Version | FIX header | FIX Message Body |
+# (Packet Header) |   (2 bytes)  |........(Simplie Binary Header, 8 bytes).......... |.......(FIX message)...........|
+#    (12 bytes)   |..........................(message header)........................|
+#                 |.................................... MDP messages.................................................|
+```
+
 * <span style="font-size: 16px;">Market microstructure researcher can rely on the PCAP data parser to obtain huge amount of market data not only in a single futures market, where both MBP and MBO data are included. This is a cost-efficient way to acquire more data to support possible cross-market analyses, such as soybean complex. No strong prior knowledge is needed for the PCAP data.</span>
