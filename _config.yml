@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Ma_Richie_photo.jpg"
+  avatar           : #"Ma_Richie_photo.jpg"
   name             : "Richie R. Ma"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Candidate of Applied Economics, University of Illinois at Urbana-Champaign"
