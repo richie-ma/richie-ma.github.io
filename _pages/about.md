@@ -6,8 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-[](images/Ma_Richie_photo.jpg)
 I'm a Ph.D. student and member of [Office for Futures and Options Research (OFOR)](https://ofor.illinois.edu/), University of Illinois at Urbana-Champaign. I will be at 2025-2026 job market.
 
 # Research Interests
