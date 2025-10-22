@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   name             : "Richie R. Ma"
-  avatar           : "image/placeholder.jpg"
+  avatar           : "images/placeholder.jpg"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Candidate of Applied Economics, University of Illinois at Urbana-Champaign"
   location         : "Urbana, IL"
