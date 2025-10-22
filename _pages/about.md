@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Richie R. Ma"
 author_profile: true
 redirect_from: 
   - /about/
