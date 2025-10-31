@@ -17,8 +17,8 @@ main:
   - title: "Programming packages"
     url: /packages/
         
- # - title: "Blog Posts"
- #   url: /year-archive/
+  - title: "Personal"
+    url: /personal/
     
   #- title: "CV"
   #  url: /cv/
