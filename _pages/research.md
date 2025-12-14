@@ -3,7 +3,8 @@ permalink: /research/
 title: "Research"
 author_profile: true
 ---
-# Publications
+# Peer-reviewed Publications
+## *Market microstructure and electronic trading*
 
 [**Is liquidity provision informative? Evidence from agricultural futures markets**](https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12479) with Teresa Serra, ***American Journal of Agricultural Economics***, January 2025
 * <span style="font-size:16px;">**Abstract**: Electronic commodity trading witnesses a massive volume of order messages every trading day, but little is known about their informativeness. We examine limit order dynamics and their role in price discovery in the Chicago Mercantile Exchange (CME) corn, soybean, and wheat futures markets from January 2019 to June 2020, using order-level data. Between 75% and 79% of the large number of limit orders submitted are then deleted, which contrasts with the much smaller proportion getting executed or revised. Aggressive trades and limit orders substantially contribute to price discovery, whereas nonaggressive trades and limit orders, representing most market events, play a minor role. Following public information releases, there is a shift in trading strategies, with trades contributing more to price discovery and aggressive limit orders contributing less, compared to non-release days. Our findings suggest that most limit orders in agricultural futures markets continue to play the traditional role of uninformed liquidity provision.</span>
@@ -11,6 +12,8 @@ author_profile: true
 * <span style="font-size:16px;">Using the order book directly reconstructed by the Market by Order (MBO) data and also providing evidence on the revolution of price discovery during the public WASDE announcement, thus subsuming the results of my Master thesis at UIUC.</span>
 * <span style="font-size:16px;">**Presentations**: 2024 AFA Ph.D. Poster Session, 2023 NCCC-134, University of Illinois at Urbana-Champaign ACE Commercial Ag</span>
 * <span style="font-size:16px;">**Award**: 2024 Peer-Reviewed Research Achievement, ACE Dept, UIUC</span>
+
+## *Futures markets and price analysis*
 
 [**The Russia-Saudi Arabia oil price war during the COVID-19 pandemic**](https://www.sciencedirect.com/science/article/pii/S0140988321003984?via%3Dihub) with Tao Xiong and Yukun Bao, ***Energy Economics***, October 2021
 
