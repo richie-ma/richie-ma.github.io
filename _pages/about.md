@@ -10,10 +10,10 @@ redirect_from:
   <img src="images/Ma_Richie_photo.jpg" alt="Profile photo" width="1000">
 </p>
 
-I'm a Ph.D. canadiate and member of [Office for Futures and Options Research (OFOR)](https://ofor.illinois.edu/), University of Illinois at Urbana-Champaign. I will be at 2025-2026 job market.
+I'm a Ph.D. canadiate and member of [Office for Futures and Options Research (OFOR)](https://ofor.illinois.edu/), University of Illinois at Urbana-Champaign. I will be at 2025-2026 job market. My research interests are commodity futures and options, with a main focus on market microstructure and electronic trading. My work concerns how market efficiency evolves, and how market design and trading rules affect market quality. My research also provides empirical evidence to exchanges and regulators, such as Chicago Exchange Mercantile (CME) and Commodity Futures Trading Commission (CFTC) for helping strengthen market transparency and integrity. For practice, my work bridges the gap between risk management strategies ("what to trade") and real trade executions ("how to trade").
 
 # Research Interests
-* Futures Markets
+* Commodity Futures Markets
 * Fiancial Market Microstructure
 * Electronic Trading
 * Price Analysis
@@ -24,9 +24,4 @@ I'm a Ph.D. canadiate and member of [Office for Futures and Options Research (OF
 * Email: [ruchuan2@illinois.edu](mailto:ruchuan2@illinois.edu)
 
 * [Curriculum Vitae PDF](https://www.dropbox.com/scl/fi/bwd0dk2lyiwgaaff9mi9y/Richie_Ma_CV.pdf?rlkey=o4klbwaz39lvtgj994q49f26j&dl=0); [Homgpage@UIUC](https://ace.illinois.edu/richie-ma)
-
-# News
-* The R package `cme.mdp` coauthored with Brian Peterson has been published in my [Github](https://github.com/richie-ma/cme.mdp). Comments and Suggestions are welcomed!
-
-* I have mirrored the R package `cme.mdp` to a Python package `cmemdp`. This package includes all features in the R `cme.mdp` and I also provide a parser for the CME raw dataset, Packet Capture (PCAP) data. It has been published in my [Github repo](https://github.com/richie-ma/cmemdp). Comments and Suggestions are welcomed!
 
