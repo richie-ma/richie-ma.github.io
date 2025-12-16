@@ -10,7 +10,11 @@ redirect_from:
   <img src="images/Ma_Richie_photo.jpg" alt="Profile photo" width="1000">
 </p>
 
-I'm a Ph.D. canadiate and member of [Office for Futures and Options Research (OFOR)](https://ofor.illinois.edu/), University of Illinois at Urbana-Champaign. I will be at 2025-2026 job market. My research interests are commodity futures and options, with a main focus on market microstructure and electronic trading. My work concerns how market efficiency evolves, and how market design and trading rules affect market quality. My research also provides empirical evidence to exchanges and regulators, such as Chicago Exchange Mercantile (CME) and Commodity Futures Trading Commission (CFTC) for helping strengthen market transparency and integrity. For practice, my work bridges the gap between risk management strategies ("what to trade") and real trade executions ("how to trade").
+I'm a Ph.D. canadiate and member of [Office for Futures and Options Research (OFOR)](https://ofor.illinois.edu/), University of Illinois at Urbana-Champaign.
+
+My research interests are commodity futures and options, with a main focus on market microstructure and electronic trading. My work concerns how market efficiency evolves, and how market design and trading rules affect market quality. My research also provides empirical evidence to exchanges and regulators, such as Chicago Exchange Mercantile (CME) and Commodity Futures Trading Commission (CFTC) for helping strengthen market transparency and integrity. In practice, my work bridges the gap between risk management strategies ("what to trade") and real trade executions ("how to trade").
+
+ I will be at 2025-2026 job market. 
 
 # Research Interests
 * Commodity Futures Markets
