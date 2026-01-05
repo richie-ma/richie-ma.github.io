@@ -14,12 +14,15 @@ I'm a Ph.D. canadiate and member of [Office for Futures and Options Research (OF
 
 My research interests are commodity futures and options, with a main focus on market microstructure and electronic trading. My work concerns how market efficiency evolves, and how market design and trading rules affect market quality. My research also provides empirical evidence to exchanges and regulators, such as Chicago Exchange Mercantile (CME) and Commodity Futures Trading Commission (CFTC) for helping strengthen market transparency and integrity. In practice, my work bridges the gap between risk management strategies ("what to trade") and real trade executions ("how to trade").
 
- I will be at 2025-2026 job market. 
+I'm also interested in financial data engineering. I have developed two programming packages for CME market data parsing and analyzing.  
+
+I will be at 2025-2026 job market. 
 
 # Research Interests
 * Commodity Futures Markets
 * Fiancial Market Microstructure
 * Electronic Trading
+* Financial Data Engineering
 * Price Analysis
 
 # Contact
