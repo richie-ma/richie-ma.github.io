@@ -13,15 +13,29 @@ author_profile: true
 * <span style="font-size:16px;">**Presentations**: 2024 AFA Ph.D. Poster Session; 2023 NCCC-134; UIUC ACE Commercial Ag</span>
 * <span style="font-size:16px;">**Award**: 2024 Peer-Reviewed Research Achievement, ACE Dept, UIUC</span>
 
-## *Futures markets and price analysis (pre-doctoral)*
+## *Futures markets and price analysis*
 
 [**The Russia-Saudi Arabia oil price war during the COVID-19 pandemic**](https://www.sciencedirect.com/science/article/pii/S0140988321003984?via%3Dihub) with [**Tao Xiong**](https://www.xiongtao.cc/home) and **Yukun Bao**, ***Energy Economics***, October 2021
 
 [**Price explosiveness in nonferrous metal futures markets**](https://www.sciencedirect.com/science/article/pii/S0264999320311962?via%3Dihub) with [**Tao Xiong**](https://www.xiongtao.cc/home), ***Economic Modelling***, January 2021
 
 # Working papers
+**Tick size and price discovery: Futures–options Evidence** [**Job Market Paper**] with Teresa Serra
+* <span style="font-size:16px;">Under review at *European Review of Agricultural Economics*
+* <span style="font-size:16px;">**Presentations**: Inter–Finance PhD; UIUC ACE FACS; 2024 Summer School on Market Microstructure; AFA 2025 Annual Meeting Ph.D. Poster Session; SWFA 2025 Annual Meeting; MFA 2025 Annual Meeting; 2025 NCCC–134 Conference</span>
+
+**More liquidity is better? Evidence from agricultural futures markets** with Teresa Serra and Brian Peterson
+
+**Inside the "meat casino": How calendar spreads shape livestock futures trading** with Teresa Serra and Brian Peterson
+
+**One contract, two deals: Do exchange-traded calendar spreads matter?** with Teresa Serra, Brian Peterson, and Scott Irwin
 
 **One-tick futures: Does tick size reduction better markets?** with Teresa Serra
 * <span style="font-size:16px;">**Abstract**: This paper examines tick size reduction in the U.S. 2-year Treasury Note futures market around January 14, 2019. We employ a difference-in-differences regression with 5-, 10-, and ultra 10-year Treasury futures markets as control groups, and we generally find significantly improved market quality. Trading costs reduce for liquidity takers and the smaller tick size has limited ability to relax its binding constraint. Our mechanism analyses indicate that traders significantly withdraw less liquidity after undercutting in response to non-execution risks and when they react to snipping risks at the opposite side of undercutting orders. Moreover, we find traders do not shift to market orders to acquire immediacy. Conversely, significantly fewer trades after undercutting. The smaller tick size significantly changes the quoting behavior, where depths are dispersed through the new pricing grid, suggesting that traders can post price-improving quotes and limit orders are layered in a more granular pricing grid, with limit order size significantly becoming smaller. Last, trading volume does not significantly change, while more trades occur with smaller trade size. Pricing efficiency does not significantly change neither does price discovery. Our findings suggest that reducing the tick size in tick-constrained liquid futures market could be promising.</span>
 * <span style="font-size:16px;">[Draft](https://www.dropbox.com/scl/fi/7iaozrc51c4p7ayqtpg68/tick_size_manuscript.pdf?rlkey=wlc7ne6c363zfx721rtdl8h8v&e=2&dl=0)</span>
 * <span style="font-size:16px;">**Presentations**: UIUC ACE FACS; 2024 NCCC-134</span>
+
+# Work in progress
+**Agricultural swap markets: Do over-the-counter derivatives matter?**
+
+**Pay for customization: Evidence from agricultural forward contract markets**
