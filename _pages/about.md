@@ -22,6 +22,7 @@ I will be at 2025-2026 job market.
 * Commodity Futures Markets
 * Fiancial Market Microstructure
 * Electronic Trading
+* Energy Finance
 * Financial Data Engineering
 * Price Analysis
 
