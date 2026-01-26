@@ -35,7 +35,7 @@ author_profile: true
 * <span style="font-size:16px;">**Presentations**: UIUC ACE FACS; 2024 NCCC-134</span>
 
 # Work in progress
-**Why quotes are informative than trades: Evidence from tick size constraints in energy progress futures markets**
+**Why quotes are more informative than trades: Evidence from tick size constraints in energy progress futures markets**
 
 **Agricultural swap markets: Do over-the-counter derivatives matter?**
 
