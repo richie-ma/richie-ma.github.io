@@ -37,6 +37,4 @@ author_profile: true
 # Work in progress
 **Why quotes are more informative than trades: Evidence from tick size constraints in energy progress futures markets**
 
-**Agricultural swap markets: Do over-the-counter derivatives matter?**
-
 **Pay for customization: Evidence from agricultural forward contract markets**
