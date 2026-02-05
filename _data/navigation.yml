@@ -19,6 +19,9 @@ main:
         
   - title: "Personal"
     url: /personal/
+
+  - title: "Futures Data"
+    url: /futures research/
     
   #- title: "CV"
   #  url: /cv/
