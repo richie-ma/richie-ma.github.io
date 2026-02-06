@@ -8,8 +8,7 @@ I would like to share some useful statistics that are hard to collect and hope t
 **Price limit days in agricultural futures markets**
 * <span style="font-size: 16px;">Price limit is one of the ways that exchanges would use to monitor trading activities, especially extreme price movements. In the agricultural futures markets, CME has implemented different price limit schedules.</span>
 * <span style="font-size: 16px;">A common characteristic is that price limits would "lock" markets when limit prices are reached. It does not mean markets are halted and no trades can occur, like circuit breakers. In fact, trades can still be executed unless only for one side. Specifically, selling during limit-up days and buying during limit-down days.</span>
-* <span style="font-size: 16px;">CME revises the limit prices rotounitely according to market conditions and the limit price range can be expandable after the day when price limits are triggerd. In 2014 (2015), CME implemented expandable price limits to 4.5 cents/lb. in live cattle (lean
-hog) futures markets once standard limit criterion is reached.</span>
+* <span style="font-size: 16px;">CME revises the limit prices rotounitely according to market conditions and the limit price range can be expandable after the day when price limits are triggerd. In 2014 (2015), CME implemented expandable price limits to 4.5 cents/lb. in live cattle (lean hog) futures markets once standard limit criterion is reached.</span>
 * <span style="font-size: 16px;"> (Examples) Price limit events in live cattle outright futures markets during 2015 to 2019 (1st--4th nearby).</span>
 
 | Date       | Contract | High Limit | Low Limit | Day       |
