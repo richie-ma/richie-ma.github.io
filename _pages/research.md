@@ -21,20 +21,17 @@ author_profile: true
 
 # Working papers
 **Tick size and price discovery: Futures–options Evidence** [**Job Market Paper**] with Teresa Serra
-* <span style="font-size:16px;">Under review at *European Review of Agricultural Economics*
+Under review at *European Review of Agricultural Economics*
 * <span style="font-size:16px;">**Presentations**: Inter–Finance PhD; UIUC ACE FACS; 2024 Summer School on Market Microstructure; AFA 2025 Annual Meeting Ph.D. Poster Session; SWFA 2025 Annual Meeting; MFA 2025 Annual Meeting; 2025 NCCC–134 Conference</span>
 
-**More liquidity is better? Evidence from agricultural futures markets** with Teresa Serra and Brian Peterson
-
-**Inside the "meat casino": How calendar spreads shape livestock futures trading** with Teresa Serra and Brian Peterson
-
-**One contract, two deals: Do exchange-traded calendar spreads matter?** with Teresa Serra, Brian Peterson, and Scott Irwin
+**One contract, two deals: How market design of exchange-traded calendar spreads affect traders?** with Teresa Serra, Brian Peterson, and Scott Irwin
+* <span style="font-size:16px;"> Subsuming *More liquidity is better? Evidence from agricultural futures markets* and *Inside the "meat casino": How calendar spreads shape livestock futures trading*
 
 **One-tick futures: Does tick size reduction better markets?** with Teresa Serra
 * <span style="font-size:16px;">[Draft](https://www.dropbox.com/scl/fi/7iaozrc51c4p7ayqtpg68/tick_size_manuscript.pdf?rlkey=wlc7ne6c363zfx721rtdl8h8v&e=2&dl=0)</span>
 * <span style="font-size:16px;">**Presentations**: UIUC ACE FACS; 2024 NCCC-134</span>
 
 # Work in progress
-**Why quotes are more informative than trades: Evidence from tick size constraints in energy progress futures markets**
+**Why quotes are more informative than trades: Evidence from tick size constraints in energy futures markets**
 
-**Pay for customization: Evidence from agricultural forward contract markets**
+**Pay for customization: Do transaction costs undermine forward market performance?**
