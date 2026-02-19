@@ -20,9 +20,10 @@ author_profile: true
 **Richie R. Ma** and [Tao Xiong](https://www.xiongtao.cc/home). [**Price explosiveness in nonferrous metal futures markets**](https://www.sciencedirect.com/science/article/pii/S0264999320311962?via%3Dihub). ***Economic Modelling***, January 2021
 
 # Working papers
-**Richie R. Ma** and Teresa Serra. **Tick size and price discovery: Futures–options Evidence** [**Job Market Paper**]
+**Richie R. Ma** and Teresa Serra. **Fast but noisy: Why options react first in agricultural derivatives markets** [**Job Market Paper**]
 Under review at *European Review of Agricultural Economics*
 * <span style="font-size:16px;">**Presentations**: Inter–Finance PhD; UIUC ACE FACS; 2024 Summer School on Market Microstructure; AFA 2025 Annual Meeting Ph.D. Poster Session; SWFA 2025 Annual Meeting; MFA 2025 Annual Meeting; 2025 NCCC–134 Conference</span>
+* <span style="font-size:16px;">[Slides](https://www.dropbox.com/scl/fi/a6bmp6axobbc4iv10p9di/Fast-but-noisy-Why-options-react-first-in-agricultural-derivatives-markets.pdf?rlkey=kufp5eijzyj8uhs52emdv2qip&dl=0)
 
 **Richie R. Ma**, Teresa Serra, Brian G. Peterson, and [Scott H. Irwin](https://scotthirwin.com/). **One contract, two deals: How market design of exchange-traded calendar spreads affect traders?**
 * <span style="font-size:16px;"> Subsuming *More liquidity is better? Evidence from agricultural futures markets* and *Inside the "meat casino": How calendar spreads shape livestock futures trading*
