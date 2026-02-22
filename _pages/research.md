@@ -15,7 +15,7 @@ author_profile: true
 
 ## *Futures markets and price analysis*
 
-**Richie R. Ma**, [Tao Xiong](https://www.xiongtao.cc/home), and Yukun Bao. [**The Russia-Saudi Arabia oil price war during the COVID-19 pandemic**](https://www.sciencedirect.com/science/article/pii/S0140988321003984?via%3Dihub).***Energy Economics***, October 2021
+**Richie R. Ma**, [Tao Xiong](https://www.xiongtao.cc/home), and Yukun Bao. [**The Russia-Saudi Arabia oil price war during the COVID-19 pandemic**](https://www.sciencedirect.com/science/article/pii/S0140988321003984?via%3Dihub). ***Energy Economics***, October 2021
 
 **Richie R. Ma** and [Tao Xiong](https://www.xiongtao.cc/home). [**Price explosiveness in nonferrous metal futures markets**](https://www.sciencedirect.com/science/article/pii/S0264999320311962?via%3Dihub). ***Economic Modelling***, January 2021
 
@@ -35,4 +35,4 @@ Under review at *European Review of Agricultural Economics*
 # Work in progress
 **Why quotes are more informative than trades: Evidence from tick size constraints in energy futures markets**
 
-**Pay for customization: Do transaction costs undermine forward market performance?**
+**Pay for customization: Do transaction costs undermine forward market performance?** with Teresa Serra, Joe Janzen, Scott Irwin, and Brian Peterson.
