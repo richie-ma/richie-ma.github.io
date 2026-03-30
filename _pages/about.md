@@ -23,6 +23,9 @@ I will be at 2025-2026 job market.
 * 2026 NCCC-134 Conference - Chicago, IL - April 20-21, 2026.
 * *Paper: One contract, two deals: How market design of exchange-listed calendar spreads affect traders?*
 
+* 2026 AAEA Annual Meeting - Kansas City, MO, July 26-28, 2026.
+* *Fast but noisy: Why options react first in agricultural derivatives markets*
+
 # Research Interests
 * Commodity Futures Markets
 * Fiancial Market Microstructure
