@@ -28,6 +28,7 @@ author_profile: true
 
 **Richie R. Ma**, Teresa Serra, Brian G. Peterson, and [Scott H. Irwin](https://scotthirwin.com/). **One contract, two deals: How market design of exchange-traded calendar spreads affect traders?**
 * <span style="font-size:16px;"> Subsuming and superseding *More liquidity is better? Evidence from agricultural futures markets* and *Inside the "meat casino": How calendar spreads shape livestock futures trading*
+* <span style="font-size:16px;">**Presentations**: 2026 NCCC–134 Conference</span>
 
 **Richie R. Ma** and Teresa Serra. **One-tick futures: Does tick size reduction better markets?**
 * <span style="font-size:16px;">[Draft](https://www.dropbox.com/scl/fi/7iaozrc51c4p7ayqtpg68/tick_size_manuscript.pdf?rlkey=wlc7ne6c363zfx721rtdl8h8v&e=2&dl=0)</span>
