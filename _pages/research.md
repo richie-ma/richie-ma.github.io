@@ -22,7 +22,7 @@ author_profile: true
 # Working papers
 
 **Richie R. Ma** and Teresa Serra. **Fast but noisy: Why options react first in agricultural derivatives markets** [**Job Market Paper**]
-*Revise and Resubmit* at *European Review of Agricultural Economics*
+*Revise and Resubmit*
 * <span style="font-size:16px;">**Presentations**: Inter–Finance PhD; UIUC ACE FACS; 2024 Summer School on Market Microstructure; AFA 2025 Annual Meeting Ph.D. Poster Session; SWFA 2025 Annual Meeting; MFA 2025 Annual Meeting; 2025 NCCC–134 Conference</span>
 * <span style="font-size:16px;">[Slides](https://www.dropbox.com/scl/fi/a6bmp6axobbc4iv10p9di/Fast-but-noisy-Why-options-react-first-in-agricultural-derivatives-markets.pdf?rlkey=kufp5eijzyj8uhs52emdv2qip&dl=0)
 
