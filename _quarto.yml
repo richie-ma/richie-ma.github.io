@@ -8,7 +8,7 @@ website:
   title: "Richie R. Ma"
   image: "https://quarto.org/quarto.png"
   description: "Quarto Academic Website"
-  site-url: "https://www.richiema.com"
+  site-url: "https://richie-ma.github.io"
  
   navbar:
     background: light  # You can change the background color here
