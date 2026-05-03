@@ -16,5 +16,5 @@ css: custom.css
 * Teaching Assistant with Professor [David Lariviere](https://davidl.web.illinois.edu/)
 
 ## ECON 471 Intro to Applied Econometrics
-* [Fall 2024](https://courses.illinois.edu/schedule/2024/fall/FIN/554), Graduate course
+* [Fall 2024](https://courses.illinois.edu/schedule/2024/fall/FIN/554), Undergraduate and Graduate course, Department of Economics
 * Teaching Assistant with Professor [Joshua Shea](https://jkcshea.github.io/)

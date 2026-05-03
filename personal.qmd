@@ -4,11 +4,7 @@ back-to-top-navigation: true
 title-block-banner: false
 css: custom.css
 ---
----
-permalink: /personal/
-title: "Personal"
-author_profile: true
----
+
 I love travelling to different places and enjoy visting museum.
 <h3>Singapore</h3>
 <table>
