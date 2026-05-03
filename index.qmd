@@ -1,0 +1,64 @@
+---
+title: "Richie R. Ma"
+subtitle: |
+  Department of Agricultural \& Consumer Economics \
+  University of Illinois at Urbana-Champaign\
+  336 OFOR Data Room, Mumford Hall \
+  1301 W. Greogry Dr., Urbana, IL 61801 \
+  Email: ruchuan2@illinois.edu
+
+description-meta: "Academic Website"
+image: "files/images/Ma_Richie_photo.jpg"
+page-navigation: false
+toc: false
+#sidebar: false
+page-layout: full
+
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 100%
+  links:
+    - icon: envelope
+      text: E-mail
+      href: mailto:ruchuan2@illinois.edu    
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=iRTpJ1kAAAAJ&hl=en
+      target: _blank
+    - text: "{{< ai cv >}} Curriculum Vitae"
+      href: https://www.dropbox.com/scl/fi/bwd0dk2lyiwgaaff9mi9y/Richie_Ma_CV.pdf?rlkey=o4klbwaz39lvtgj994q49f26j&dl=0s
+      target: _blank
+    - text: "{{< ai uiuc >}} Homepage@UIUC"
+      href: https://ace.illinois.edu/richie-ma
+      target: _blank
+
+---
+
+:::{#hero-heading}
+
+I'm a Ph.D. candidate and member of [Office for Futures and Options Research (OFOR)](https://ofor.illinois.edu/), University of Illinois at Urbana-Champaign.
+
+My research interests are commodity futures and options, with a main focus on market microstructure and electronic trading. My work concerns how market efficiency evolves, and how market design and trading rules affect market quality. My research also provides empirical evidence to exchanges and regulators, such as Chicago Exchange Mercantile (CME) and Commodity Futures Trading Commission (CFTC) for helping strengthen market transparency and integrity. In practice, my work bridges the gap between risk management strategies ("what to trade") and real trade executions ("how to trade").
+
+I'm also interested in financial data engineering. I have developed two programming packages for CME market data parsing and analyzing.  
+
+I will be at 2025-2026 job market. 
+
+## Research Interests
+* Commodity Futures Markets
+* Electronic Trading and Market Microstructure
+* Energy Economics and Finance
+* Biofuel Policy and Markets
+* Financial Data Engineering
+* Price Analysis
+
+## Timeline for Conferences - 2026
+2026 AAEA Annual Meeting - Kansas City, MO, July 26-28, 2026.
+
+*Fast but noisy: Why options react first in agricultural derivatives markets*
+
+:::
+
+
+
+
