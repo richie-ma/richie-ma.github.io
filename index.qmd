@@ -9,10 +9,13 @@ subtitle: |
 
 description-meta: "Academic Website"
 image: "files/images/Ma_Richie_photo.jpg"
+
+title-block-banner: false
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
+back-to-top-navigation: true
+css: custom.css
 
 about:
   id: hero-heading
