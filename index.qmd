@@ -14,7 +14,6 @@ title-block-banner: false
 page-navigation: false
 toc: false
 page-layout: full
-back-to-top-navigation: true
 css: custom.css
 
 about:

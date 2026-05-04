@@ -1,7 +1,6 @@
 ---
 title-block-banner: false
 page-layout: full
-back-to-top-navigation: true
 css: custom.css
 ---
 
