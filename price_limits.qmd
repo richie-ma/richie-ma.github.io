@@ -4,7 +4,7 @@ back-to-top-navigation: true
 title-block-banner: false
 css: custom.css
 ---
-
+[&larr Go back](futures.qmd){.preview-link}
 # Price limit days in agricultural futures markets
 * Price limit is one of the ways that exchanges would use to monitor trading activities, especially extreme price movements. In the agricultural futures markets, CME has implemented different price limit schedules.
 * A common characteristic is that price limits would "lock" markets when limit prices are reached. It does not mean markets are halted and no trades can occur, like circuit breakers. In fact, trades can still be executed unless only for one side. Specifically, selling during limit-up days and buying during limit-down days.
@@ -25,3 +25,6 @@ css: custom.css
 | 2017-05-02 | LEM7     | 127.13     | 121.13   | limit_up  |
 
 Click here to get the full price limit events for [live cattle](https://www.dropbox.com/scl/fi/k5tkz5sy3vuo8lqt98lia/live_cattle_limit_days.csv?rlkey=jwkk1q5nfc8150fr8hh6mgxsy&dl=0) and [lean hog](https://www.dropbox.com/scl/fi/d04ig9zbv7ezg4b4hz2k4/lean_hog_limit_days.csv?rlkey=505gc8f7ev8vwd8bmrmeeggro&dl=0).
+
+Thoughts or questions?  
+[Thoughts and questions](mailto:ruchuan2@illinois.edu?subject=Comment%20on%20Price%20Limits){.btn .btn-outline-primary}
