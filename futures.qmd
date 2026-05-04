@@ -12,6 +12,7 @@ Every futures contract has its expiration date, and no data are available afterw
 [Read more →](rollover.qmd){.preview-link}
 
 <center><hr style="width:80%"></center>
+
 # Price limit days in agricultural futures markets
 Price limit is one of the ways that exchanges would use to monitor trading activities, especially extreme price movements. In the agricultural futures markets, CME has implemented different price limit schedules...
 
