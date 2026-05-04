@@ -4,7 +4,7 @@ back-to-top-navigation: true
 title-block-banner: false
 css: custom.css
 ---
-[&larr Go back](futures.qmd){.preview-link}
+[← Go back](futures.qmd){.preview-link}
 
 # Futures Rollover
 * Every futures contract has its expiration date, and no data are available afterwards. Thus, we need to construct a "continuous" futures by rolling from an expiring contract to the next one. 
