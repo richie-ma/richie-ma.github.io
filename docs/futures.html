@@ -328,11 +328,11 @@ https://badge.dimensions.ai/
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./packages.html"> 
-<span class="menu-text">Programming packages</span></a>
+<span class="menu-text">Programming Packages</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./futures.html" aria-current="page"> 
-<span class="menu-text">Futures Data</span></a>
+<span class="menu-text">Futures Market Blogs</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./personal.html"> 
@@ -367,7 +367,8 @@ https://badge.dimensions.ai/
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#price-limit-days-in-agricultural-futures-markets" id="toc-price-limit-days-in-agricultural-futures-markets" class="nav-link active" data-scroll-target="#price-limit-days-in-agricultural-futures-markets">Price limit days in agricultural futures markets</a></li>
+  <li><a href="#futures-rollover" id="toc-futures-rollover" class="nav-link active" data-scroll-target="#futures-rollover">Futures Rollover</a></li>
+  <li><a href="#price-limit-days-in-agricultural-futures-markets" id="toc-price-limit-days-in-agricultural-futures-markets" class="nav-link" data-scroll-target="#price-limit-days-in-agricultural-futures-markets">Price limit days in agricultural futures markets</a></li>
   </ul>
 </nav>
     </div>
@@ -378,197 +379,19 @@ https://badge.dimensions.ai/
 
 
 
-<p>I would like to share some useful statistics that are hard to collect and hope these data can encourage research in futures markets.</p>
+<p>I would like to share my own two cents about futures research and hope that they will encourage further research on futures markets.</p>
+<section id="futures-rollover" class="level1">
+<h1>Futures Rollover</h1>
+<p>Every futures contract has its expiration date, and no data are available afterwards. Thus, we need to construct a “continuous” futures by rolling from an expiring contract to the next one…</p>
+<p><a href="./rollover.html" class="preview-link">Read more →</a></p>
+<center>
+<hr style="width:80%">
+</center>
+</section>
 <section id="price-limit-days-in-agricultural-futures-markets" class="level1">
 <h1>Price limit days in agricultural futures markets</h1>
-<ul>
-<li>Price limit is one of the ways that exchanges would use to monitor trading activities, especially extreme price movements. In the agricultural futures markets, CME has implemented different price limit schedules.</li>
-<li>A common characteristic is that price limits would “lock” markets when limit prices are reached. It does not mean markets are halted and no trades can occur, like circuit breakers. In fact, trades can still be executed unless only for one side. Specifically, selling during limit-up days and buying during limit-down days.</li>
-<li>CME revises the limit prices routinely according to market conditions and the limit price range can be expandable after the day when price limits are triggered. In 2014 (2015), CME implemented expandable price limits to 4.5 cents/lb. in live cattle (lean hog) futures markets once standard limit criterion is reached.</li>
-<li>(Examples) Price limit events in live cattle outright futures markets during 2015 to 2019 (1st–4th nearby).</li>
-</ul>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Date</th>
-<th>Contract</th>
-<th>High Limit</th>
-<th>Low Limit</th>
-<th>Day</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>2015-01-27</td>
-<td>LEG5</td>
-<td>152.83</td>
-<td>146.83</td>
-<td>limit_up</td>
-</tr>
-<tr class="even">
-<td>2015-01-27</td>
-<td>LEJ5</td>
-<td>151.00</td>
-<td>145.00</td>
-<td>limit_up</td>
-</tr>
-<tr class="odd">
-<td>2015-02-06</td>
-<td>LEJ5</td>
-<td>151.03</td>
-<td>145.03</td>
-<td>limit_up</td>
-</tr>
-<tr class="even">
-<td>2015-02-06</td>
-<td>LEM5</td>
-<td>144.25</td>
-<td>138.25</td>
-<td>limit_up</td>
-</tr>
-<tr class="odd">
-<td>2015-02-13</td>
-<td>LEJ5</td>
-<td>154.13</td>
-<td>148.13</td>
-<td>limit_up</td>
-</tr>
-<tr class="even">
-<td>2017-04-26</td>
-<td>LEQ7</td>
-<td>115.05</td>
-<td>109.05</td>
-<td>limit_up</td>
-</tr>
-<tr class="odd">
-<td>2017-04-27</td>
-<td>LEG8</td>
-<td>117.78</td>
-<td>111.78</td>
-<td>limit_up</td>
-</tr>
-<tr class="even">
-<td>2017-04-27</td>
-<td>LEJ8</td>
-<td>116.65</td>
-<td>110.65</td>
-<td>limit_up</td>
-</tr>
-<tr class="odd">
-<td>2017-04-27</td>
-<td>LEM7</td>
-<td>121.53</td>
-<td>115.53</td>
-<td>limit_up</td>
-</tr>
-<tr class="even">
-<td>2017-05-02</td>
-<td>LEM7</td>
-<td>127.13</td>
-<td>121.13</td>
-<td>limit_up</td>
-</tr>
-<tr class="odd">
-<td>2017-05-03</td>
-<td>LEM7</td>
-<td>130.05</td>
-<td>124.05</td>
-<td>limit_up</td>
-</tr>
-<tr class="even">
-<td>2017-05-04</td>
-<td>LEM7</td>
-<td>134.55</td>
-<td>125.55</td>
-<td>limit_up</td>
-</tr>
-<tr class="odd">
-<td>2017-06-01</td>
-<td>LEQ7</td>
-<td>124.70</td>
-<td>118.70</td>
-<td>limit_up</td>
-</tr>
-<tr class="even">
-<td>2017-07-12</td>
-<td>LEZ7</td>
-<td>118.33</td>
-<td>112.33</td>
-<td>limit_up</td>
-</tr>
-<tr class="odd">
-<td>2017-08-15</td>
-<td>LEZ7</td>
-<td>111.80</td>
-<td>105.80</td>
-<td>limit_up</td>
-</tr>
-<tr class="even">
-<td>2017-10-30</td>
-<td>LEG8</td>
-<td>128.75</td>
-<td>122.75</td>
-<td>limit_up</td>
-</tr>
-<tr class="odd">
-<td>2017-11-03</td>
-<td>LEG8</td>
-<td>131.75</td>
-<td>125.75</td>
-<td>limit_up</td>
-</tr>
-<tr class="even">
-<td>2018-02-01</td>
-<td>LEJ8</td>
-<td>125.93</td>
-<td>119.93</td>
-<td>limit_up</td>
-</tr>
-<tr class="odd">
-<td>2018-04-04</td>
-<td>LEM8</td>
-<td>102.63</td>
-<td>96.63</td>
-<td>limit_up</td>
-</tr>
-<tr class="even">
-<td>2018-05-21</td>
-<td>LEM8</td>
-<td>105.40</td>
-<td>99.40</td>
-<td>limit_up</td>
-</tr>
-<tr class="odd">
-<td>2018-06-29</td>
-<td>LEV8</td>
-<td>110.03</td>
-<td>104.03</td>
-<td>limit_up</td>
-</tr>
-<tr class="even">
-<td>2018-09-14</td>
-<td>LEZ8</td>
-<td>118.40</td>
-<td>112.40</td>
-<td>limit_up</td>
-</tr>
-<tr class="odd">
-<td>2019-06-10</td>
-<td>LEQ9</td>
-<td>106.30</td>
-<td>100.30</td>
-<td>limit_up</td>
-</tr>
-<tr class="even">
-<td>2019-06-10</td>
-<td>LEV9</td>
-<td>107.50</td>
-<td>101.50</td>
-<td>limit_up</td>
-</tr>
-</tbody>
-</table>
-<p>Click here to get the full price limit events for <a href="https://www.dropbox.com/scl/fi/k5tkz5sy3vuo8lqt98lia/live_cattle_limit_days.csv?rlkey=jwkk1q5nfc8150fr8hh6mgxsy&amp;dl=0">live cattle</a> and <a href="https://www.dropbox.com/scl/fi/d04ig9zbv7ezg4b4hz2k4/lean_hog_limit_days.csv?rlkey=505gc8f7ev8vwd8bmrmeeggro&amp;dl=0">lean hog</a>.</p>
+<p>Price limit is one of the ways that exchanges would use to monitor trading activities, especially extreme price movements. In the agricultural futures markets, CME has implemented different price limit schedules…</p>
+<p><a href="./price_limits.html" class="preview-link">Read more →</a></p>
 
 
 </section>

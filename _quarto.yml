@@ -18,9 +18,9 @@ website:
         href: publications.qmd                                  
       - text: Teaching 
         href: teaching.qmd
-      - text: Programming packages 
+      - text: Programming Packages 
         href: packages.qmd
-      - text: Futures Data
+      - text: Futures Market Blogs
         href: futures.qmd
       - text: Personal
         href: personal.qmd
@@ -84,6 +84,7 @@ format:
       light: cosmo
       dark: darkly
     respect-user-color-scheme: true
+    back-to-top-navigation: true
     css: styles.css
     toc: true
     footnotes-hover: true

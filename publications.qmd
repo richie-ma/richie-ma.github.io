@@ -8,7 +8,7 @@ css: custom.css
 # Peer-reviewed Publications
 ## Market microstructure and electronic trading
 
-**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Is liquidity provision informative? Evidence from agricultural futures markets**](https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12479), ***American Journal of Agricultural Economics***, January 2025
+**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Is liquidity provision informative? Evidence from agricultural futures markets**](https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12479). ***American Journal of Agricultural Economics***, January 2025
 <details class="abstract-fold" open>
 <summary>Abstract</summary>
 <p>
