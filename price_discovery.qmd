@@ -1,0 +1,81 @@
+---
+page-layout: full
+title-block-banner: false
+css: custom.css
+---
+[← Go back](futures.qmd)
+
+# Price Discovery
+* Price discovery is one of the well-known financial terms in modern finance. Coinciding with the main target of microstructure research, it focuses on how market efficiency achieves. 
+  * Lehmann (2002)^[Lehmann, B. N. (2002). Some desiderata for the measurement of price discovery across markets. Journal of Financial Markets 5, 259–276.] defines the price discovery as a process of how information is incorporated into market prices timely and efficiently.
+  * Electronic trading has made price discovery more transparent, especially with limit order books. Limit order books represent the real-time market supply--demand schedules of a financial asset.
+  * Hasbrouck (1995)^[Hasbrouck, J. (1995). One security, many markets: Determining the contributions to price discovery. Journal of Finance 50, 1175–1199.] proposes a "one-security-many-markets" setting. A financial asset can be traded in multiple venues, and their prices share an implicit common efficient price. An example could be E-mini S&P 500 futures and SPY (or other S&P 500 index ETFs). Here, the futures and ETF both track S&P 500 index and they should share common information.
+    * Prices from multiple venues are cointegrated. Cointegration means that these prices reach a long-run equilibrium though they can deviate in the short run.
+    * There should not be **persistent** price deviations or arbitrage opportunities across multiple venues. It suggests that any short-run price deviations can be captured by arbitrageurs timely, correcting price mispricing.
+
+Here, I briefly summarize the development of price discovery literature:
+
+## Garbade and Silber (1983)
+Garbade and Silber (1983)^[Garbade, K. D., and William L. S. (1983). Price Movements and Price Discovery in Futures and Cash Markets.” Review of Economics and Statistics 65, 289–97.] can be considered as the pioneer study that provides a theoretical framework for price discovery. Their setting focuses on price discovery between futures and spot markets. 
+
+* Their theory states that additional demand from (homogenous) spot/futures market participants is offset by demand from arbitrageurs. The former adjusts their demand based on both current market price and their reservation prices. When their reservation prices are higher (lower) than the market price, they become net sellers (buyers). However, the latter is exactly price receivers and seeks revenues from arbitrage. Once market clears, spot/futures market participants update their reservations to the clearing price.
+* Garbade and Silber (1983) suggest that the price discovery ability of futures market depends on the share of market participants in futures markets, or generally, the futures **market size**.
+$$
+\frac{N_f}{N_f+N_s}
+$$
+
+* Typically, modern studies use different proxies for market size. The widely used one is trading volume. You might hear about the conventional wisdom: trading volume matters for price discovery. I guess Garbade and Silber (1983) is where this conventional wisdom comes from.
+* However, this conventional wisdom might not be 100% correct in the context of electrnoic trading.
+  * I've tried to derive the model under heterogenous market participants, each of which has different demand elasticity. 
+  * In this context, the price discovery ability depends on **market liquidity** rather than market size. In microstructure, researchers focus on price impacts, which measures the impact that a transaction triggers (or "walk up the order book"). Markets with inelastic demand typically observe larger price impacts than those with elastic demand when the same trade comes.
+  * **This indicates that market price under inelastic demand has lower informativeness than that under elastic demand.**
+
+## Hasbrouck (1995)
+Hasbrouck (1995) is one of the most cited papers for price discovery analyses. This paper explicitly states that prices from multiple venues share an implicit common efficient price. This paper proposes the well-known information shares for measuring the price discovery ability. 
+
+* The starting point is typically estimating the following vector error correction model (VECM)
+$$
+\Delta \mathbf{p}_{t}=\mathbf{\alpha}z_{t-1}+\mathbf{B}_1\Delta \mathbf{p}_{t-1}+\mathbf{B}_2\Delta \mathbf{p}_{t-2}+\cdots+\mathbf{B}_M\Delta \mathbf{p}_{t-M}+\mathbf{\varepsilon}_{t},
+$$
+where $\Delta \mathbf{p}_{t}=\left[\Delta p_{1,t},\Delta p_{2,t}\right]^{\prime}$ and $\mathbf{B}_i\in\mathbb{R}^{2\times2}$ denotes the coefficient matrix associated with lag $i$. 
+  * The error-correction term is $z_{t-1}=\left(p_{1,t-1}-p_{2,t-1}-\mu\right)$. In price discovery analysis, the normalized cointegrating vector is set to $\left[1, -1\right]^{\prime}$, ensuring that all price series share a common efficient price. In this context, one can ensure the stationarity of $\beta^{\prime}z_{t-1}$.^[If you know time-series econometrics, cointegration expects that the linear combination of non-stationary price series should be stationary.] $\mu$ is included to account for price-level differences across markets, such as cost-of-carry. This is typically optional.^[Hasbrouck, J. (2007). Empirical Market Microstructure: The Institutions, Economics, and Econometrics of Securities Trading. New York: Oxford University Press. In section 10.3.3, he notes that “In microstructure analysis...The bids, asks, trade prices, and so on, even from multiple trading venues, for a single security cannot reasonably diverge without bound.”]
+* To extract the common efficient price, transforming the VECM into a vector moving-average (VMA) process:
+$$
+\Delta\mathbf{p}_{t}=\mathbf{\Psi}(L)\varepsilon_{t}=\mathbf{\Psi}_0\mathbf{\varepsilon}_{t}+\mathbf{\Psi}_1\mathbf{\varepsilon}_{t-1}+\mathbf{\Psi}_2\mathbf{\varepsilon}_{t-2}+\cdots,
+$$
+where $\mathbf{\Psi}(L)$ denotes the polynomial of the lag operator. 
+  * All rows of $\mathbf{\Psi}(1)$ are identical, given the normalized cointegrating vector is set to $\left[1, -1\right]^{\prime}$.
+  * The variance of the common efficient price returns as $\mathsf{Var}(\mathbf{\psi}\mathbf{\varepsilon}_{t})=\mathbf{\psi\Omega\psi^{\prime}}$, where $\mathbf{\psi}=\left(\psi_{1}, \psi_{2}\right)$ is a common row vector of $\mathbf{\Psi}(1)$. 
+  * This step can be calculated through cumulative impulse response functions (IRFs) up to a step at which the cumulative IRFs are stabilized. 
+* Information share ($IS$) is defined as the proportion of variance in the efficient price attributed to each price series:
+$$
+  IS_{i}=\frac{\psi_{i}^2\mathbf{\Omega}_{ii}}{\mathbf{\psi\Omega\psi^{\prime}}},
+$$
+where $\mathbf{\Omega_{ii}}$ is the $i$-th diagonal element of variance--covariance matrix $\mathbf{\Omega}$. 
+  * However, $\mathbf{\Omega}$ is often non-diagonal and price innovations are correlated across markets
+    * A Cholesky factorization is applied to $\mathbf{\Omega}$ such that $\mathbf{\Omega}=\mathbf{MM^{\prime}}$ to eliminate contemporaneous correlations. Thus, the $IS$ is
+$$
+  IS_{i}=\frac{\left(\left[\psi\mathbf{M}\right]_{i}\right)^{2}}{\mathbf{\psi\Omega\psi^{\prime}}}.
+$$
+   * However, now we can't derive a unique information share, which is dependent on the ordering of prices in the VECM. Literature typically calculates the average $IS$ by taking all possible orderings.
+
+## Yan and Zivot (2010) and Putnins (2013)
+As I metioned, price discovery typically includes two demensions: Timeliness and efficiency.
+
+* Yan and Zivot (2010)^[Yan, B. and E. Zivot (2010). A structural analysis of price discovery measures. Journal of Financial Markets 13, 1–19.] document that both information shares and component shares^[$CS_i=\frac{\psi_i}{\sum_{i} \psi_{i}}$. See more details in Gonzalo, J. and C. Granger (1995). Estimation of common long-memory components in cointegrated systems. Journal of Business and Economic Statistics 13, 27–35.] are adequate to capture timeliness only when market prices exhibit similar noise levels. 
+* Putnins (2013)^[Putnins, T. J. (2013). What do price discovery metrics really measure? Journal of Empirical Finance 23, 68–83.] suggests that the inconsistency of the two perspectives might be more pronounced in analyses between different types of markets (e.g., electronic vs. pits) or different asset classes (e.g., futures vs. options).
+  * Putnins (2013) proposes an information leadership share ($ILS$) based on Yan and Zivot (2010). Here is a bi-variate case.
+$$
+ILS_{i}=\frac{\left| \frac{IS_i}{IS_{-i}}\cdot\frac{CS_{-i}}{CS_{i}} \right|}{\left| \frac{IS_i}{IS_{-i}}\cdot\frac{CS_{-i}}{CS_{i}} \right|+\left| \frac{IS_{-i}}{IS_{i}}\cdot\frac{CS_{i}}{CS_{-i}} \right|}.
+$$
+
+My research also found this inconsistency.
+
+* Agricultural futures and options are distinct in terms of market liquidity. 
+  * Options are thinly traded and it is very hard to see that option trading volume approaches to futures trading volume. 
+
+<!--Include social share buttons-->
+{{< include /files/includes/_socialshare.qmd >}}
+
+Thoughts or questions?  
+[Thoughts and questions](mailto:ruchuan2@illinois.edu?subject=Comment){.btn .btn-outline-primary}

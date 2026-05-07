@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>rollover – Richie R. Ma</title>
+<title>price_discovery – Richie R. Ma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -121,6 +121,35 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="custom.css">
@@ -367,7 +396,12 @@ https://badge.dimensions.ai/
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#futures-rollover" id="toc-futures-rollover" class="nav-link active" data-scroll-target="#futures-rollover">Futures Rollover</a></li>
+  <li><a href="#price-discovery" id="toc-price-discovery" class="nav-link active" data-scroll-target="#price-discovery">Price Discovery</a>
+  <ul class="collapse">
+  <li><a href="#garbade-and-silber-1983" id="toc-garbade-and-silber-1983" class="nav-link" data-scroll-target="#garbade-and-silber-1983">Garbade and Silber (1983)</a></li>
+  <li><a href="#hasbrouck-1995" id="toc-hasbrouck-1995" class="nav-link" data-scroll-target="#hasbrouck-1995">Hasbrouck (1995)</a></li>
+  <li><a href="#yan-and-zivot-2010-and-putnins-2013" id="toc-yan-and-zivot-2010-and-putnins-2013" class="nav-link" data-scroll-target="#yan-and-zivot-2010-and-putnins-2013">Yan and Zivot (2010) and Putnins (2013)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -379,41 +413,89 @@ https://badge.dimensions.ai/
 
 
 <p><a href="./futures.html">← Go back</a></p>
-<section id="futures-rollover" class="level1">
-<h1>Futures Rollover</h1>
+<section id="price-discovery" class="level1">
+<h1>Price Discovery</h1>
 <ul>
-<li>Every futures contract has its expiration date, and no data are available afterwards. Thus, we need to construct a “continuous” futures by rolling from an expiring contract to the next one.</li>
-<li>Typically, three ways can be considered
+<li>Price discovery is one of the well-known financial terms in modern finance. Coinciding with the main target of microstructure research, it focuses on how market efficiency achieves.
 <ul>
-<li>Rolling directly at the expiration day.</li>
-<li>Rolling at the last day of the month prior to the expiring contract month.</li>
-<li>Rolling based on trading volume or open interest.</li>
+<li>Lehmann (2002)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> defines the price discovery as a process of how information is incorporated into market prices timely and efficiently.</li>
+<li>Electronic trading has made price discovery more transparent, especially with limit order books. Limit order books represent the real-time market supply–demand schedules of a financial asset.</li>
+<li>Hasbrouck (1995)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> proposes a “one-security-many-markets” setting. A financial asset can be traded in multiple venues, and their prices share an implicit common efficient price. An example could be E-mini S&amp;P 500 futures and SPY (or other S&amp;P 500 index ETFs). Here, the futures and ETF both track S&amp;P 500 index and they should share common information.
+<ul>
+<li>Prices from multiple venues are cointegrated. Cointegration means that these prices reach a long-run equilibrium though they can deviate in the short run.</li>
+<li>There should not be <strong>persistent</strong> price deviations or arbitrage opportunities across multiple venues. It suggests that any short-run price deviations can be captured by arbitrageurs timely, correcting price mispricing.</li>
+</ul></li>
 </ul></li>
 </ul>
-<p>The first method typically works well in stock index futures since no obvious seasonality exists in this type of futures. For daily analyses, you might also see researchers apply the first method in crude oil markets.</p>
-<p>The second method is one of the most common ways to roll futures contracts for agricultural futures.</p>
+<p>Here, I briefly summarize the development of price discovery literature:</p>
+<section id="garbade-and-silber-1983" class="level2">
+<h2 class="anchored" data-anchor-id="garbade-and-silber-1983">Garbade and Silber (1983)</h2>
+<p>Garbade and Silber (1983)<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> can be considered as the pioneer study that provides a theoretical framework for price discovery. Their setting focuses on price discovery between futures and spot markets.</p>
 <ul>
-<li>Typically, the rolling day is close to futures First Notice Day when futures contracts start their delivery process.</li>
-<li>Literature holds a conventional wisdom that futures research should not include the delivery period.
+<li><p>Their theory states that additional demand from (homogenous) spot/futures market participants is offset by demand from arbitrageurs. The former adjusts their demand based on both current market price and their reservation prices. When their reservation prices are higher (lower) than the market price, they become net sellers (buyers). However, the latter is exactly price receivers and seeks revenues from arbitrage. Once market clears, spot/futures market participants update their reservations to the clearing price.</p></li>
+<li><p>Garbade and Silber (1983) suggest that the price discovery ability of futures market depends on the share of market participants in futures markets, or generally, the futures <strong>market size</strong>. <span class="math display">\[
+\frac{N_f}{N_f+N_s}
+\]</span></p></li>
+<li><p>Typically, modern studies use different proxies for market size. The widely used one is trading volume. You might hear about the conventional wisdom: trading volume matters for price discovery. I guess Garbade and Silber (1983) is where this conventional wisdom comes from.</p></li>
+<li><p>However, this conventional wisdom might not be 100% correct in the context of electrnoic trading.</p>
 <ul>
-<li>Paul (1986, p.&nbsp;321) states that “…it is prudent practice in most studies of futures price behavior to exclude delivery month prices from the analyses…”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
-<li>Recent work by Irwin, Sanders, Smith, and Yan about “liquidation bias” also reinforces it.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+<li>I’ve tried to derive the model under heterogenous market participants, each of which has different demand elasticity.</li>
+<li>In this context, the price discovery ability depends on <strong>market liquidity</strong> rather than market size. In microstructure, researchers focus on price impacts, which measures the impact that a transaction triggers (or “walk up the order book”). Markets with inelastic demand typically observe larger price impacts than those with elastic demand when the same trade comes.</li>
+<li><strong>This indicates that market price under inelastic demand has lower informativeness than that under elastic demand.</strong></li>
 </ul></li>
 </ul>
-<p>The third method might be the most-widely-used approach, especially in microstructure analyses because this method considers futures trading the most.</p>
+</section>
+<section id="hasbrouck-1995" class="level2">
+<h2 class="anchored" data-anchor-id="hasbrouck-1995">Hasbrouck (1995)</h2>
+<p>Hasbrouck (1995) is one of the most cited papers for price discovery analyses. This paper explicitly states that prices from multiple venues share an implicit common efficient price. This paper proposes the well-known information shares for measuring the price discovery ability.</p>
 <ul>
-<li>Typically, the most-traded contracts show the best market liquidity, such as bid-ask spread and market depth.
+<li>The starting point is typically estimating the following vector error correction model (VECM) <span class="math display">\[
+\Delta \mathbf{p}_{t}=\mathbf{\alpha}z_{t-1}+\mathbf{B}_1\Delta \mathbf{p}_{t-1}+\mathbf{B}_2\Delta \mathbf{p}_{t-2}+\cdots+\mathbf{B}_M\Delta \mathbf{p}_{t-M}+\mathbf{\varepsilon}_{t},
+\]</span> where <span class="math inline">\(\Delta \mathbf{p}_{t}=\left[\Delta p_{1,t},\Delta p_{2,t}\right]^{\prime}\)</span> and <span class="math inline">\(\mathbf{B}_i\in\mathbb{R}^{2\times2}\)</span> denotes the coefficient matrix associated with lag <span class="math inline">\(i\)</span>.
 <ul>
-<li>Generally, the constructed continuous futures series rarely see jumps in market liquidity indicators.</li>
+<li>The error-correction term is <span class="math inline">\(z_{t-1}=\left(p_{1,t-1}-p_{2,t-1}-\mu\right)\)</span>. In price discovery analysis, the normalized cointegrating vector is set to <span class="math inline">\(\left[1, -1\right]^{\prime}\)</span>, ensuring that all price series share a common efficient price. In this context, one can ensure the stationarity of <span class="math inline">\(\beta^{\prime}z_{t-1}\)</span>.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> <span class="math inline">\(\mu\)</span> is included to account for price-level differences across markets, such as cost-of-carry. This is typically optional.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></li>
 </ul></li>
-<li>One drawback of this method is called the “rolling back” issue. Once we roll to the next contract month, we should not go back though sometimes the previous contract might have higher trading volume for a few days.
+<li>To extract the common efficient price, transforming the VECM into a vector moving-average (VMA) process: <span class="math display">\[
+\Delta\mathbf{p}_{t}=\mathbf{\Psi}(L)\varepsilon_{t}=\mathbf{\Psi}_0\mathbf{\varepsilon}_{t}+\mathbf{\Psi}_1\mathbf{\varepsilon}_{t-1}+\mathbf{\Psi}_2\mathbf{\varepsilon}_{t-2}+\cdots,
+\]</span> where <span class="math inline">\(\mathbf{\Psi}(L)\)</span> denotes the polynomial of the lag operator.
 <ul>
-<li>In agricultural futures markets, this issue typically occurs when we roll July contract in corn. During this window, the most-traded contract may periodically switch back and forth between July and September.</li>
+<li>All rows of <span class="math inline">\(\mathbf{\Psi}(1)\)</span> are identical, given the normalized cointegrating vector is set to <span class="math inline">\(\left[1, -1\right]^{\prime}\)</span>.</li>
+<li>The variance of the common efficient price returns as <span class="math inline">\(\mathsf{Var}(\mathbf{\psi}\mathbf{\varepsilon}_{t})=\mathbf{\psi\Omega\psi^{\prime}}\)</span>, where <span class="math inline">\(\mathbf{\psi}=\left(\psi_{1}, \psi_{2}\right)\)</span> is a common row vector of <span class="math inline">\(\mathbf{\Psi}(1)\)</span>.</li>
+<li>This step can be calculated through cumulative impulse response functions (IRFs) up to a step at which the cumulative IRFs are stabilized.</li>
 </ul></li>
-<li>Thus, to control this, researchers need to set another criterion: the trading volume of new contract we roll to should be higher than that of the expiring one for at least a few consecutive trading days (typically 2 or 3 days). Otherwise, no rolling happens.</li>
-<li>Using open interest is likely to generate a pretty similar rolling schedule as open interest is highly and positively correlated with trading volume.</li>
+<li>Information share (<span class="math inline">\(IS\)</span>) is defined as the proportion of variance in the efficient price attributed to each price series: <span class="math display">\[
+IS_{i}=\frac{\psi_{i}^2\mathbf{\Omega}_{ii}}{\mathbf{\psi\Omega\psi^{\prime}}},
+\]</span> where <span class="math inline">\(\mathbf{\Omega_{ii}}\)</span> is the <span class="math inline">\(i\)</span>-th diagonal element of variance–covariance matrix <span class="math inline">\(\mathbf{\Omega}\)</span>.
+<ul>
+<li>However, <span class="math inline">\(\mathbf{\Omega}\)</span> is often non-diagonal and price innovations are correlated across markets
+<ul>
+<li>A Cholesky factorization is applied to <span class="math inline">\(\mathbf{\Omega}\)</span> such that <span class="math inline">\(\mathbf{\Omega}=\mathbf{MM^{\prime}}\)</span> to eliminate contemporaneous correlations. Thus, the <span class="math inline">\(IS\)</span> is <span class="math display">\[
+IS_{i}=\frac{\left(\left[\psi\mathbf{M}\right]_{i}\right)^{2}}{\mathbf{\psi\Omega\psi^{\prime}}}.
+\]</span></li>
+</ul></li>
+<li>However, now we can’t derive a unique information share, which is dependent on the ordering of prices in the VECM. Literature typically calculates the average <span class="math inline">\(IS\)</span> by taking all possible orderings.</li>
+</ul></li>
 </ul>
-<p>In my research, I find that the roll date generated by the third method is typically earlier than that generated by the second method, suggesting that market participants shift their trading attention to the next contract before the First Notice Day.</p>
+</section>
+<section id="yan-and-zivot-2010-and-putnins-2013" class="level2">
+<h2 class="anchored" data-anchor-id="yan-and-zivot-2010-and-putnins-2013">Yan and Zivot (2010) and Putnins (2013)</h2>
+<p>As I metioned, price discovery typically includes two demensions: Timeliness and efficiency.</p>
+<ul>
+<li>Yan and Zivot (2010)<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> document that both information shares and component shares<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> are adequate to capture timeliness only when market prices exhibit similar noise levels.</li>
+<li>Putnins (2013)<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> suggests that the inconsistency of the two perspectives might be more pronounced in analyses between different types of markets (e.g., electronic vs.&nbsp;pits) or different asset classes (e.g., futures vs.&nbsp;options).
+<ul>
+<li>Putnins (2013) proposes an information leadership share (<span class="math inline">\(ILS\)</span>) based on Yan and Zivot (2010). Here is a bi-variate case. <span class="math display">\[
+ILS_{i}=\frac{\left| \frac{IS_i}{IS_{-i}}\cdot\frac{CS_{-i}}{CS_{i}} \right|}{\left| \frac{IS_i}{IS_{-i}}\cdot\frac{CS_{-i}}{CS_{i}} \right|+\left| \frac{IS_{-i}}{IS_{i}}\cdot\frac{CS_{i}}{CS_{-i}} \right|}.
+\]</span></li>
+</ul></li>
+</ul>
+<p>My research also found this inconsistency.</p>
+<ul>
+<li>Agricultural futures and options are distinct in terms of market liquidity.
+<ul>
+<li>Options are thinly traded and it is very hard to see that option trading volume approaches to futures trading volume.</li>
+</ul></li>
+</ul>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -434,13 +516,20 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail btn btn-
 
 
 </section>
+</section>
 
 
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p> Paul, A.B. 1986. Liquidation Bias in Futures Price Spreads. American Journal of Agricultural Economics 68 (2):313–321.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Irwin, Scott and Sanders, Dwight R. and Smith, Aaron and Yan, Lei, Was Allen Paul Right? Liquidation Bias in Commodity Futures Markets. Available at SSRN: https://ssrn.com/abstract=6071584<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Lehmann, B. N. (2002). Some desiderata for the measurement of price discovery across markets. Journal of Financial Markets 5, 259–276.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Hasbrouck, J. (1995). One security, many markets: Determining the contributions to price discovery. Journal of Finance 50, 1175–1199.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Garbade, K. D., and William L. S. (1983). Price Movements and Price Discovery in Futures and Cash Markets.” Review of Economics and Statistics 65, 289–97.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>If you know time-series econometrics, cointegration expects that the linear combination of non-stationary price series should be stationary.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Hasbrouck, J. (2007). Empirical Market Microstructure: The Institutions, Economics, and Econometrics of Securities Trading. New York: Oxford University Press. In section 10.3.3, he notes that “In microstructure analysis…The bids, asks, trade prices, and so on, even from multiple trading venues, for a single security cannot reasonably diverge without bound.”<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Yan, B. and E. Zivot (2010). A structural analysis of price discovery measures. Journal of Financial Markets 13, 1–19.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><span class="math inline">\(CS_i=\frac{\psi_i}{\sum_{i} \psi_{i}}\)</span>. See more details in Gonzalo, J. and C. Granger (1995). Estimation of common long-memory components in cointegrated systems. Journal of Business and Economic Statistics 13, 27–35.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Putnins, T. J. (2013). What do price discovery metrics really measure? Journal of Empirical Finance 23, 68–83.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

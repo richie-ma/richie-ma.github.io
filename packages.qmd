@@ -22,6 +22,18 @@ library(cme.mdp)
 
 ![](files/images/book_bar.gif)
 
+[**pricediscovery: Price discovery analysis under "one-security-many-markets" setting**](https://github.com/richie-ma/pricediscovery)
+
+* The goal of `pricediscovery` is to conduct Hasbrouck (1995)^[Hasbrouck, J. 1995. “One Security, Many Markets: Determining the Contributions to Price Discovery.” Journal of Finance 50: 1175–99.]'s price discovery analysis easily within $N$ markets. The current package can calculate component shares^[Gonzalo, J., and C. Granger. 1995. “Estimation of Common Long-Memory Components in Cointegrated Systems.” Journal of Business and Economic Statistics 13: 27–35.], information shares^[Hasbrouck, J. 1995. “One Security, Many Markets: Determining the Contributions to Price Discovery.” Journal of Finance 50: 1175–99.], and information leadership shares^[Putniņš, T. J. 2013. “What Do Price Discovery Metrics Really Measure?” Journal of Empirical Finance 23: 68–83.]
+* Price discovery characterizes a process of which new information is incorporated into markets timely and efficiently. In modern price discovery analysis, price discovery typically includes two dimensions: Timeliness and Efficiency (Informativeness). One asset can be traded in multiple venues, and their prices share an implicit common efficient price. This means that cointegrated markets should not observe persistent price deviations or arbitrage opportunities.
+* An example could be E-mini S&P 500 futures and SPY (or other S&P 500 index ETFs).
+
+```r
+#install.packages("remotes")
+remotes::install_github("richie-ma/pricediscovery")
+library(pricediscovery)
+```
+
 # Python
 [**cmemdp: Clean and Analyze Chicago Mercantile Exchange Market Data in Python**](https://github.com/richie-ma/cmemdp)
 
