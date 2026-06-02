@@ -3,9 +3,9 @@ page-layout: full
 title-block-banner: false
 css: custom.css
 ---
-[← Go back](futures.qmd)
+[← Go back](futures_blog.qmd)
 
-# Futures Rollover
+# Continuous Futures Data Construction
 * Every futures contract has its expiration date, and no data are available afterwards. Thus, we need to construct a "continuous" futures by rolling from an expiring contract to the next one. 
 * Typically, three ways can be considered
   * Rolling directly at the expiration day.

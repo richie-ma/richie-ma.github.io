@@ -3,7 +3,7 @@ page-layout: full
 title-block-banner: false
 css: custom.css
 ---
-[← Go back](futures.qmd)
+[← Go back](futures_blog.qmd)
 
 # Price Discovery
 * Price discovery is one of the well-known financial terms in modern finance. Coinciding with the main target of microstructure research, it focuses on how market efficiency achieves. 
@@ -28,7 +28,7 @@ $$
 * However, this conventional wisdom might not be 100% correct in the context of electrnoic trading.
   * I've tried to derive the model under heterogenous market participants, each of which has different demand elasticity. 
   * In this context, the price discovery ability depends on **market liquidity** rather than market size. In microstructure, researchers focus on price impacts, which measures the impact that a transaction triggers (or "walk up the order book"). Markets with inelastic demand typically observe larger price impacts than those with elastic demand when the same trade comes.
-  * **This indicates that market price under inelastic demand has lower informativeness than that under elastic demand.**
+  * **This indicates that market price under inelastic demand may have lower informativeness than that under elastic demand.**
 
 ## Hasbrouck (1995)
 Hasbrouck (1995) is one of the most cited papers for price discovery analyses. This paper explicitly states that prices from multiple venues share an implicit common efficient price. This paper proposes the well-known information shares for measuring the price discovery ability. 
@@ -45,7 +45,7 @@ $$
 $$
 where $\mathbf{\Psi}(L)$ denotes the polynomial of the lag operator. 
   * All rows of $\mathbf{\Psi}(1)$ are identical, given the normalized cointegrating vector is set to $\left[1, -1\right]^{\prime}$.
-  * The variance of the common efficient price returns as $\mathsf{Var}(\mathbf{\psi}\mathbf{\varepsilon}_{t})=\mathbf{\psi\Omega\psi^{\prime}}$, where $\mathbf{\psi}=\left(\psi_{1}, \psi_{2}\right)$ is a common row vector of $\mathbf{\Psi}(1)$. 
+  * The variance of the common efficient price innovation as $\mathsf{Var}(\mathbf{\psi}\mathbf{\varepsilon}_{t})=\mathbf{\psi\Omega\psi^{\prime}}$, where $\mathbf{\psi}=\left(\psi_{1}, \psi_{2}\right)$ is a common row vector of $\mathbf{\Psi}(1)$. 
   * This step can be calculated through cumulative impulse response functions (IRFs) up to a step at which the cumulative IRFs are stabilized. 
 * Information share ($IS$) is defined as the proportion of variance in the efficient price attributed to each price series:
 $$

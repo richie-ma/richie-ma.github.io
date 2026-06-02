@@ -23,7 +23,7 @@ website:
       - text: Programming Packages 
         href: packages.qmd
       - text: Futures Market Blogs
-        href: futures.qmd
+        href: futures_blog.qmd
       - text: Personal
         href: personal.qmd
       
