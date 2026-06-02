@@ -17,7 +17,7 @@ css: custom.css
     
 * Calendar spread contracts are traded in the futures markets and they represent the price difference between two contract months. For example, in the corn futures, the calendar spread contract is directly quoted as the price spread between two legs, such as -0.25 cents/bushel for the spread between December 2024 and March 2025 contracts.
   * Traders still receive **two outright positions**, instead of a (synthetic) spread combo.
-  * A big advantage of trading calendar spreads is the price spread between two legs is guaranteed.
+  * A big advantage of trading calendar spreads is that the price spread between two legs is guaranteed.
    * This means the slippage cost is supposed to be smaller than trading two outright contracts.
 
 * Spread trading is not a new thing in futures markets.
