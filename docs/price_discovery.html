@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Academic Website">
 
-<title>Richie R. Ma</title>
+<title>price_discovery – Richie R. Ma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -36,6 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -121,16 +121,41 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="Richie R. Ma">
-<meta property="og:description" content="Department of Agricultural &amp; Consumer Economics
-University of Illinois at Urbana-Champaign
-437 OFOR Data Room, Mumford Hall
-1301 W. Greogry Dr., Urbana, IL 61801
-Email: ruchuan2@illinois.edu">
-<meta property="og:image" content="https://richie-ma.github.io/files/images/Ma_Richie_photo.jpg">
+<meta property="og:description" content="Quarto Academic Website">
+<meta property="og:image" content="https://quarto.org/quarto.png">
 <meta property="og:site_name" content="Richie R. Ma">
 </head>
 
@@ -366,76 +391,147 @@ Email: ruchuan2@illinois.edu">
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#price-discovery" id="toc-price-discovery" class="nav-link active" data-scroll-target="#price-discovery">Price Discovery</a>
+  <ul class="collapse">
+  <li><a href="#garbade-and-silber-1983" id="toc-garbade-and-silber-1983" class="nav-link" data-scroll-target="#garbade-and-silber-1983">Garbade and Silber (1983)</a></li>
+  <li><a href="#hasbrouck-1995" id="toc-hasbrouck-1995" class="nav-link" data-scroll-target="#hasbrouck-1995">Hasbrouck (1995)</a></li>
+  <li><a href="#yan-and-zivot-2010-and-putnins-2013" id="toc-yan-and-zivot-2010-and-putnins-2013" class="nav-link" data-scroll-target="#yan-and-zivot-2010-and-putnins-2013">Yan and Zivot (2010) and Putnins (2013)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
 
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="files/images/Ma_Richie_photo.jpg" class="about-image
-  rounded " style="width: 100%;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Richie R. Ma</h1>
-<p class="subtitle lead"></p><p>Department of Agricultural &amp; Consumer Economics<br>
-University of Illinois at Urbana-Champaign<br>
-437 OFOR Data Room, Mumford Hall<br>
-1301 W. Greogry Dr., Urbana, IL 61801<br>
-Email: ruchuan2@illinois.edu</p><p></p>
-</div>
-<div class="quarto-title-meta column-page">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="mailto:ruchuan2@illinois.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">E-mail</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=iRTpJ1kAAAAJ&amp;hl=en" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="https://www.dropbox.com/scl/fi/bwd0dk2lyiwgaaff9mi9y/Richie_Ma_CV.pdf?rlkey=o4klbwaz39lvtgj994q49f26j&amp;dl=0s" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">Curriculum Vitae</span>
-  </a>
-  <a href="https://ace.illinois.edu/richie-ma" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">Homepage@UIUC</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>I’m a Ph.D.&nbsp;candidate and member of <a href="https://ofor.illinois.edu/">Office for Futures and Options Research (OFOR)</a>, University of Illinois at Urbana-Champaign.</p>
-<p>My major research interests are commodity futures and options, with a main focus on market microstructure and electronic trading. My work concerns how market efficiency evolves, and how market design and trading rules affect market quality. My research also provides empirical evidence to exchanges and regulators, such as Chicago Exchange Mercantile (CME) and Commodity Futures Trading Commission (CFTC) for helping strengthen market transparency and integrity. In practice, my work bridges the gap between risk management strategies (“what to trade”) and real trade executions (“how to trade”).</p>
-<p>My research also focuses on biofuel policy and markets, especially the Renewable Fuel Standard (RFS) program in the U.S., which links the agricultural markets and energy markets.</p>
-<p>I’m also interested in financial data engineering. I have developed two programming packages for CME market data parsing and analyzing.</p>
-<p>I will be at 2025-2026 job market.</p>
-<section id="research-interests" class="level2">
-<h2 data-anchor-id="research-interests">Research Interests</h2>
+<p><a href="./futures_blog.html">← Go back</a></p>
+<section id="price-discovery" class="level1">
+<h1>Price Discovery</h1>
 <ul>
-<li>Commodity Futures Markets</li>
-<li>Electronic Trading and Market Microstructure</li>
-<li>Energy Economics and Finance</li>
-<li>Biofuel Policy and Markets</li>
-<li>Financial Data Engineering</li>
-<li>Price Analysis</li>
+<li>Price discovery is one of the well-known financial terms in modern finance. Coinciding with the main target of microstructure research, it focuses on how market efficiency achieves.
+<ul>
+<li>Lehmann (2002)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> defines the price discovery as a process of how information is incorporated into market prices timely and efficiently.</li>
+<li>Electronic trading has made price discovery more transparent, especially with limit order books. Limit order books represent the real-time market supply–demand schedules of a financial asset.</li>
+<li>Hasbrouck (1995)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> proposes a “one-security-many-markets” setting. A financial asset can be traded in multiple venues, and their prices share an implicit common efficient price. An example could be E-mini S&amp;P 500 futures and SPY (or other S&amp;P 500 index ETFs). Here, the futures and ETF both track S&amp;P 500 index and they should share common information.
+<ul>
+<li>Prices from multiple venues are cointegrated. Cointegration means that these prices reach a long-run equilibrium though they can deviate in the short run.</li>
+<li>There should not be <strong>persistent</strong> price deviations or arbitrage opportunities across multiple venues. It suggests that any short-run price deviations can be captured by arbitrageurs timely, correcting price mispricing.</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>Here, I briefly summarize the development of price discovery literature:</p>
+<section id="garbade-and-silber-1983" class="level2">
+<h2 class="anchored" data-anchor-id="garbade-and-silber-1983">Garbade and Silber (1983)</h2>
+<p>Garbade and Silber (1983)<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> can be considered as the pioneer study that provides a theoretical framework for price discovery. Their setting focuses on price discovery between futures and spot markets.</p>
+<ul>
+<li><p>Their theory states that additional demand from (homogenous) spot/futures market participants is offset by demand from arbitrageurs. The former adjusts their demand based on both current market price and their reservation prices. When their reservation prices are higher (lower) than the market price, they become net sellers (buyers). However, the latter is exactly price receivers and seeks revenues from arbitrage. Once market clears, spot/futures market participants update their reservations to the clearing price.</p></li>
+<li><p>Garbade and Silber (1983) suggest that the price discovery ability of futures market depends on the share of market participants in futures markets, or generally, the futures <strong>market size</strong>. <span class="math display">\[
+\frac{N_f}{N_f+N_s}
+\]</span></p></li>
+<li><p>Typically, modern studies use different proxies for market size. The widely used one is trading volume. You might hear about the conventional wisdom: trading volume matters for price discovery. I guess Garbade and Silber (1983) is where this conventional wisdom comes from.</p></li>
+<li><p>However, this conventional wisdom might not be 100% correct in the context of electrnoic trading.</p>
+<ul>
+<li>I’ve tried to derive the model under heterogenous market participants, each of which has different demand elasticity.</li>
+<li>In this context, the price discovery ability depends on <strong>market liquidity</strong> rather than market size. In microstructure, researchers focus on price impacts, which measures the impact that a transaction triggers (or “walk up the order book”). Markets with inelastic demand typically observe larger price impacts than those with elastic demand when the same trade comes.</li>
+<li><strong>This indicates that market price under inelastic demand may have lower informativeness than that under elastic demand.</strong></li>
+</ul></li>
 </ul>
 </section>
-<section id="timeline-for-conferences---2026" class="level2">
-<h2 data-anchor-id="timeline-for-conferences---2026">Timeline for Conferences - 2026</h2>
-<p>2026 AAEA Annual Meeting - Kansas City, MO, July 26-28, 2026.</p>
-<p><em>Fast but noisy: Why options react first in agricultural derivatives markets</em></p>
+<section id="hasbrouck-1995" class="level2">
+<h2 class="anchored" data-anchor-id="hasbrouck-1995">Hasbrouck (1995)</h2>
+<p>Hasbrouck (1995) is one of the most cited papers for price discovery analyses. This paper explicitly states that prices from multiple venues share an implicit common efficient price. This paper proposes the well-known information shares for measuring the price discovery ability.</p>
+<ul>
+<li>The starting point is typically estimating the following vector error correction model (VECM) <span class="math display">\[
+\Delta \mathbf{p}_{t}=\mathbf{\alpha}z_{t-1}+\mathbf{B}_1\Delta \mathbf{p}_{t-1}+\mathbf{B}_2\Delta \mathbf{p}_{t-2}+\cdots+\mathbf{B}_M\Delta \mathbf{p}_{t-M}+\mathbf{\varepsilon}_{t},
+\]</span> where <span class="math inline">\(\Delta \mathbf{p}_{t}=\left[\Delta p_{1,t},\Delta p_{2,t}\right]^{\prime}\)</span> and <span class="math inline">\(\mathbf{B}_i\in\mathbb{R}^{2\times2}\)</span> denotes the coefficient matrix associated with lag <span class="math inline">\(i\)</span>.
+<ul>
+<li>The error-correction term is <span class="math inline">\(z_{t-1}=\left(p_{1,t-1}-p_{2,t-1}-\mu\right)\)</span>. In price discovery analysis, the normalized cointegrating vector is set to <span class="math inline">\(\left[1, -1\right]^{\prime}\)</span>, ensuring that all price series share a common efficient price. In this context, one can ensure the stationarity of <span class="math inline">\(\beta^{\prime}z_{t-1}\)</span>.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> <span class="math inline">\(\mu\)</span> is included to account for price-level differences across markets, such as cost-of-carry. This is typically optional.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></li>
+</ul></li>
+<li>To extract the common efficient price, transforming the VECM into a vector moving-average (VMA) process: <span class="math display">\[
+\Delta\mathbf{p}_{t}=\mathbf{\Psi}(L)\varepsilon_{t}=\mathbf{\Psi}_0\mathbf{\varepsilon}_{t}+\mathbf{\Psi}_1\mathbf{\varepsilon}_{t-1}+\mathbf{\Psi}_2\mathbf{\varepsilon}_{t-2}+\cdots,
+\]</span> where <span class="math inline">\(\mathbf{\Psi}(L)\)</span> denotes the polynomial of the lag operator.
+<ul>
+<li>All rows of <span class="math inline">\(\mathbf{\Psi}(1)\)</span> are identical, given the normalized cointegrating vector is set to <span class="math inline">\(\left[1, -1\right]^{\prime}\)</span>.</li>
+<li>The variance of the common efficient price innovation as <span class="math inline">\(\mathsf{Var}(\mathbf{\psi}\mathbf{\varepsilon}_{t})=\mathbf{\psi\Omega\psi^{\prime}}\)</span>, where <span class="math inline">\(\mathbf{\psi}=\left(\psi_{1}, \psi_{2}\right)\)</span> is a common row vector of <span class="math inline">\(\mathbf{\Psi}(1)\)</span>.</li>
+<li>This step can be calculated through cumulative impulse response functions (IRFs) up to a step at which the cumulative IRFs are stabilized.</li>
+</ul></li>
+<li>Information share (<span class="math inline">\(IS\)</span>) is defined as the proportion of variance in the efficient price attributed to each price series: <span class="math display">\[
+IS_{i}=\frac{\psi_{i}^2\mathbf{\Omega}_{ii}}{\mathbf{\psi\Omega\psi^{\prime}}},
+\]</span> where <span class="math inline">\(\mathbf{\Omega_{ii}}\)</span> is the <span class="math inline">\(i\)</span>-th diagonal element of variance–covariance matrix <span class="math inline">\(\mathbf{\Omega}\)</span>.
+<ul>
+<li>However, <span class="math inline">\(\mathbf{\Omega}\)</span> is often non-diagonal and price innovations are correlated across markets
+<ul>
+<li>A Cholesky factorization is applied to <span class="math inline">\(\mathbf{\Omega}\)</span> such that <span class="math inline">\(\mathbf{\Omega}=\mathbf{MM^{\prime}}\)</span> to eliminate contemporaneous correlations. Thus, the <span class="math inline">\(IS\)</span> is <span class="math display">\[
+IS_{i}=\frac{\left(\left[\psi\mathbf{M}\right]_{i}\right)^{2}}{\mathbf{\psi\Omega\psi^{\prime}}}.
+\]</span></li>
+</ul></li>
+<li>However, now we can’t derive a unique information share, which is dependent on the ordering of prices in the VECM. Literature typically calculates the average <span class="math inline">\(IS\)</span> by taking all possible orderings.</li>
+</ul></li>
+</ul>
 </section>
-</div></div>
+<section id="yan-and-zivot-2010-and-putnins-2013" class="level2">
+<h2 class="anchored" data-anchor-id="yan-and-zivot-2010-and-putnins-2013">Yan and Zivot (2010) and Putnins (2013)</h2>
+<p>As I metioned, price discovery typically includes two demensions: Timeliness and efficiency.</p>
+<ul>
+<li>Yan and Zivot (2010)<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> document that both information shares and component shares<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> are adequate to capture timeliness only when market prices exhibit similar noise levels.</li>
+<li>Putnins (2013)<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> suggests that the inconsistency of the two perspectives might be more pronounced in analyses between different types of markets (e.g., electronic vs.&nbsp;pits) or different asset classes (e.g., futures vs.&nbsp;options).
+<ul>
+<li>Putnins (2013) proposes an information leadership share (<span class="math inline">\(ILS\)</span>) based on Yan and Zivot (2010). Here is a bi-variate case. <span class="math display">\[
+ILS_{i}=\frac{\left| \frac{IS_i}{IS_{-i}}\cdot\frac{CS_{-i}}{CS_{i}} \right|}{\left| \frac{IS_i}{IS_{-i}}\cdot\frac{CS_{-i}}{CS_{i}} \right|+\left| \frac{IS_{-i}}{IS_{i}}\cdot\frac{CS_{i}}{CS_{-i}} \right|}.
+\]</span></li>
+</ul></li>
+</ul>
+<p>My research also found this inconsistency.</p>
+<ul>
+<li>Agricultural futures and options are distinct in terms of market liquidity.
+<ul>
+<li>Options are thinly traded and it is very hard to see that option trading volume approaches to futures trading volume.</li>
+</ul></li>
+</ul>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
 </div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+<p>Thoughts or questions?<br>
+<script type="text/javascript">
+<!--
+h='&#x69;&#108;&#108;&#x69;&#110;&#x6f;&#x69;&#x73;&#46;&#x65;&#100;&#x75;&#x3f;&#x73;&#x75;&#98;&#106;&#x65;&#x63;&#116;&#x3d;&#x43;&#x6f;&#x6d;&#x6d;&#x65;&#110;&#116;';a='&#64;';n='&#114;&#x75;&#x63;&#104;&#x75;&#x61;&#110;&#50;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail btn btn-outline-primary">'+'&#84;&#104;&#x6f;&#x75;&#x67;&#104;&#116;&#x73;&#32;&#x61;&#110;&#100;&#32;&#x71;&#x75;&#x65;&#x73;&#116;&#x69;&#x6f;&#110;&#x73;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>Thoughts and questions (ruchuan2 at illinois dot edu?subject=Comment)</noscript></p>
 
 
+</section>
+</section>
 
 
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
-</main> <!-- /main -->
+<ol>
+<li id="fn1"><p>Lehmann, B. N. (2002). Some desiderata for the measurement of price discovery across markets. Journal of Financial Markets 5, 259–276.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Hasbrouck, J. (1995). One security, many markets: Determining the contributions to price discovery. Journal of Finance 50, 1175–1199.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Garbade, K. D., and William L. S. (1983). Price Movements and Price Discovery in Futures and Cash Markets.” Review of Economics and Statistics 65, 289–97.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>If you know time-series econometrics, cointegration expects that the linear combination of non-stationary price series should be stationary.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Hasbrouck, J. (2007). Empirical Market Microstructure: The Institutions, Economics, and Econometrics of Securities Trading. New York: Oxford University Press. In section 10.3.3, he notes that “In microstructure analysis…The bids, asks, trade prices, and so on, even from multiple trading venues, for a single security cannot reasonably diverge without bound.”<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Yan, B. and E. Zivot (2010). A structural analysis of price discovery measures. Journal of Financial Markets 13, 1–19.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><span class="math inline">\(CS_i=\frac{\psi_i}{\sum_{i} \psi_{i}}\)</span>. See more details in Gonzalo, J. and C. Granger (1995). Estimation of common long-memory components in cointegrated systems. Journal of Business and Economic Statistics 13, 27–35.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Putnins, T. J. (2013). What do price discovery metrics really measure? Journal of Empirical Finance 23, 68–83.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -451,6 +547,13 @@ Email: ruchuan2@illinois.edu</p><p></p>
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
