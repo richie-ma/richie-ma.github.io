@@ -39,16 +39,15 @@ css: custom.css
 </details>
 
 # Working Papers
-**Richie R. Ma** and Teresa Serra. **Fast but noisy: Why options react first in agricultural derivatives markets**. *Revise and Resubmit*
+**Richie R. Ma** and Teresa Serra. **When options lead and futures inform: Price discovery in agricultural derivatives markets**. *Revise and Resubmit*
 <details class="abstract-fold" open>
 <summary>Abstract</summary>
 <p>
- This paper examines price discovery in agricultural derivatives using Chicago Mercantile Exchange intraday data, revealing a decoupling between timeliness and efficiency. We show that options lead underlying futures in timeliness, yet futures remain the primary anchor for pricing efficiency. While options are thinly traded, they exhibit a significantly higher frequency of aggressive quotes that move the best bid or offer price--over three times that of futures. A 1% increase in relative aggressive quoting is associated with a 0.75%--0.98% increase in options' timeliness. These findings challenge trade-centric views, showing that aggressive limit orders rather than executed trades are associated with timely information incorporation in modern electronic markets.  
+Electronic trading allows prices to impound information through both trades and aggressive quotes at the top of the limit order book. Agricultural options markets exhibit frequent aggressive quoting despite thin trading activity, yet little is known about how they contribute to price discovery relative to their underlying futures. Using Chicago Mercantile Exchange (CME) intraday data, this paper examines price discovery between agricultural futures and options, documenting a contrast between timeliness and informativeness. Options incorporate new information more quickly than the underlying futures, yet futures remain the primary source of price informativeness. We find that a 1% increase in relative aggressive quoting is associated with a 0.25% increase in options’ timeliness leadership and a 0.15% decline in their relative informativeness. By contrast, options’ relative trading volume is negatively associated with their timeliness advantage and is unrelated to informativeness.
 </p>
 </details>
 
-* *Presentations*: Inter–Finance PhD; UIUC ACE FACS; 2024 Summer School on Market Microstructure; AFA 2025 Annual Meeting Ph.D. Poster Session; SWFA 2025 Annual Meeting; MFA 2025 Annual Meeting; 2025 NCCC–134 Conference; 2026 AAEA Annual Meeting
-* [Slides](https://www.dropbox.com/scl/fi/a6bmp6axobbc4iv10p9di/Fast-but-noisy-Why-options-react-first-in-agricultural-derivatives-markets.pdf?rlkey=kufp5eijzyj8uhs52emdv2qip&dl=0)
+* *Presentations*: Inter–Finance PhD; UIUC ACE FACS; 2024 Summer School on Market Microstructure; AFA 2025 Annual Meeting Ph.D. Poster Session; SWFA 2025 Annual Meeting; MFA 2025 Annual Meeting; 2025 NCCC–134 Conference; 2026 AAEA Annual Meeting (scheduled)
 
 <center><hr style="width:80%"></center>
 
@@ -74,6 +73,3 @@ css: custom.css
 
 * [Draft](https://www.dropbox.com/scl/fi/7iaozrc51c4p7ayqtpg68/tick_size_manuscript.pdf?rlkey=wlc7ne6c363zfx721rtdl8h8v&e=2&dl=0)
 * *Presentations*: UIUC ACE FACS; 2024 NCCC-134 Conference
-
-# Work in Progress
-**Richie R. Ma**. **Why quotes are more informative than trades: Evidence from tick size constraints in energy futures markets**
