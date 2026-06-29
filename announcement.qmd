@@ -1,0 +1,48 @@
+---
+page-layout: full
+title-block-banner: false
+css: custom.css
+---
+[← Go back](futures_blog.qmd)
+
+# How energy futures markets respond to EIA Weekly Petroleum Status Report
+* Futures markets are typically supposed to respond to new information in a timely manner. The U.S. Energy Information Administration (EIA) releases the Weekly Petroleum Status Report every Wednesday at 10:30 a.m. ET, which provides the latest information about petroleum inventories in the U.S. and it is widely followed by energy traders.
+  * EIA report announces the inventory levels of crude oil, gasoline, and distillate fuel (heating oil and diesel) in the U.S for the last week ending on Friday. Hence, the information is about the historical inventory while has not released to the public before the report release time.
+  * EIA report contains fundamental information about the supply and demand of petroleum products, and this information should be incorporated into futures prices in a timely manner, according to the efficient market hypothesis.
+  * The EIA report is relased following an "announcement" style at a scheduled time while energy futures markets are open for trading. This constrsts to other announcements, such as the public firm's earnings announcements, which are typically released after the market closes.
+* I analyze how the energy futures markets respond to the EIA Weekly Petroleum Status Report. I focus on the WTI crude oil, RBOB gasoline, and heating oil futures markets.
+  * These are widely traded petroleum products in the U.S. I also include the natural gas futures market for comparision, which is not directly related to petroleum products.
+
+## What indicators are used to measure the market response?
+* The widely used indicators to measure the market response are the trading volume and (realized) volatility. 
+  * Trading volume reflects the intestity of executed trades around announcment periods.
+  * Realized volatility reflects the magnitude of price changes around announcement periods. Like what you see a huge body in a candlestick chart, the price change is large and the realized volatility is high.
+
+* I use time and sales data to calculate the trading volume and realized volatility for each futures contract. I focus on the 30-minute period before and after the EIA report release time (10:30 a.m. ET). 
+  * The trading volume is calculated as the total number of contracts traded every minute interval during the 30-minute period.
+  * The realized volatility is calculated as the sqaure root of the sum of squared returns every minute interval during the 30-minute period. Since it's calculated as squared returns, you do not need to worry about the direction of price changes. The realized volatility is always non-negative.
+
+![Trading volume and realized volatility.](energy_ann.png)
+
+* HUGE increase in trading volume and realized volatility when the EIA report is released for all markets, execpt for the natural gas futures. The largest response is observed at exactly within 1 minute after the report release time. Market is way efficient in responding to the new information.
+  * To verify my results are driven by announcments, I also calculate the trading volume and realized volatility for the same time period on the non-announcement days. The results show that there is no significant increase in trading volume and realized volatility, which suggests that the results on Wednesday are indeed driven by the EIA report release.
+* The natural gas futures market does not respond to the EIA report release, which is consistent with the fact that natural gas is not directly related to petroleum products.
+
+## Market responses to unexpected components of the EIA report
+* For each announcement, news media such as Bloomberg typically report the market expectation of the EIA report. The market expectation is typically based on the survey of industrial analysts, and it is followed by traders. The difference between the actual report and the market expectation is called "market surprise."
+* Let me walk through the following expression:
+$$
+A_t - A_{t-1} = \underbrace{(A_t-F_t)}_{\text{market surprise}}+\underbrace{(F_t-A_{t-1})}_{\text{anticipated change}},
+$$
+
+where $A_t$ is the actual report value at time $t$, $F_t$ is the analyst's (median) forecast at time $t$, and $A_{t-1}$ is the previous report value at time $t-1$. $A_t - A_{t-1}$ is the change in the report value, which can be decomposed into two components: the market surprise and the anticipated change. The market surprise is the difference between the actual report and the market expectation ($A_t-F_t$), while the anticipated change is the difference between the market expectation and the previous report value ($F_t-A_{t-1}$).
+
+* The price direction (either up or down) is likely to be determined by the market surprise. 
+  * For "less is better" indicator, positive suprise would indicate price decrease. For example, higher-then-expected inventory ($A_t-F_t >0$) indicates market is not so tight as analysts' expectations. Hence, the market price is most likely to decrease.
+
+<!--Include social share buttons-->
+{{< include /files/includes/_socialshare.qmd >}}
+
+Thoughts or questions?  
+[Thoughts and questions](mailto:ruchuan2@illinois.edu?subject=Comment){.btn .btn-outline-primary}
+

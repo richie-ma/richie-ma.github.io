@@ -28,7 +28,7 @@ css: custom.css
 </p>
 </details>
 
-<center><hr style="width:80%"></center>
+<center><hr style="width:100%"></center>
 
 **Richie R. Ma** and Tao Xiong. [**Price explosiveness in nonferrous metal futures markets**](https://www.sciencedirect.com/science/article/pii/S0264999320311962?via%3Dihub). ***Economic Modelling***, January 2021
 <details class="abstract-fold">
@@ -49,7 +49,7 @@ Electronic trading allows prices to impound information through both trades and 
 
 * *Presentations*: Inter–Finance PhD; UIUC ACE FACS; 2024 Summer School on Market Microstructure; AFA 2025 Annual Meeting Ph.D. Poster Session; SWFA 2025 Annual Meeting; MFA 2025 Annual Meeting; 2025 NCCC–134 Conference; 2026 AAEA Annual Meeting (scheduled)
 
-<center><hr style="width:80%"></center>
+<center><hr style="width:100%"></center>
 
 **Richie R. Ma**, Teresa Serra, Brian G. Peterson, and [Scott H. Irwin](https://scotthirwin.com/). **One contract, two deals: Do exchange-traded calendar spreads matter?**
 <details class="abstract-fold" open>
@@ -61,7 +61,7 @@ Electronic trading allows prices to impound information through both trades and 
 
 * *Presentations*: UIUC ACE FACS; 2026 NCCC–134 Conference
 
-<center><hr style="width:80%"></center>
+<center><hr style="width:100%"></center>
 
 **Richie R. Ma** and Teresa Serra. **One-tick futures: Does tick size reduction better markets?**
 <details class="abstract-fold">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>futures_blog – Richie R. Ma</title>
+<title>announcement – Richie R. Ma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -121,13 +121,44 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="Richie R. Ma">
 <meta property="og:description" content="Quarto Academic Website">
-<meta property="og:image" content="https://quarto.org/quarto.png">
+<meta property="og:image" content="https://richie-ma.github.io/energy_ann.png">
 <meta property="og:site_name" content="Richie R. Ma">
+<meta property="og:image:height" content="6288">
+<meta property="og:image:width" content="12000">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -331,7 +362,7 @@ https://badge.dimensions.ai/
 <span class="menu-text">Programming Packages</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./futures_blog.html" aria-current="page"> 
+    <a class="nav-link" href="./futures_blog.html"> 
 <span class="menu-text">Futures Market Blogs</span></a>
   </li>  
   <li class="nav-item">
@@ -367,11 +398,11 @@ https://badge.dimensions.ai/
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#how-energy-futures-markets-respond-to-eia-weekly-petroleum-status-report" id="toc-how-energy-futures-markets-respond-to-eia-weekly-petroleum-status-report" class="nav-link active" data-scroll-target="#how-energy-futures-markets-respond-to-eia-weekly-petroleum-status-report">How energy futures markets respond to EIA Weekly Petroleum Status Report?</a></li>
-  <li><a href="#how-to-rollover-futures-contracts" id="toc-how-to-rollover-futures-contracts" class="nav-link" data-scroll-target="#how-to-rollover-futures-contracts">How to rollover futures contracts?</a></li>
-  <li><a href="#price-discovery" id="toc-price-discovery" class="nav-link" data-scroll-target="#price-discovery">Price discovery</a></li>
-  <li><a href="#continuous-futures-data-construction" id="toc-continuous-futures-data-construction" class="nav-link" data-scroll-target="#continuous-futures-data-construction">Continuous Futures Data Construction</a></li>
-  <li><a href="#price-limit-days-in-agricultural-futures-markets" id="toc-price-limit-days-in-agricultural-futures-markets" class="nav-link" data-scroll-target="#price-limit-days-in-agricultural-futures-markets">Price limit days in agricultural futures markets</a></li>
+  <li><a href="#how-energy-futures-markets-respond-to-eia-weekly-petroleum-status-report" id="toc-how-energy-futures-markets-respond-to-eia-weekly-petroleum-status-report" class="nav-link active" data-scroll-target="#how-energy-futures-markets-respond-to-eia-weekly-petroleum-status-report">How energy futures markets respond to EIA Weekly Petroleum Status Report</a>
+  <ul class="collapse">
+  <li><a href="#what-indicators-are-used-to-measure-the-market-response" id="toc-what-indicators-are-used-to-measure-the-market-response" class="nav-link" data-scroll-target="#what-indicators-are-used-to-measure-the-market-response">What indicators are used to measure the market response?</a></li>
+  <li><a href="#market-responses-to-unexpected-components-of-the-eia-report" id="toc-market-responses-to-unexpected-components-of-the-eia-report" class="nav-link" data-scroll-target="#market-responses-to-unexpected-components-of-the-eia-report">Market responses to unexpected components of the EIA report</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -382,45 +413,84 @@ https://badge.dimensions.ai/
 
 
 
-<p>I would like to share my own two cents about futures research and hope that they will encourage further research on futures markets.</p>
+<p><a href="./futures_blog.html">← Go back</a></p>
 <section id="how-energy-futures-markets-respond-to-eia-weekly-petroleum-status-report" class="level1">
-<h1>How energy futures markets respond to EIA Weekly Petroleum Status Report?</h1>
-<p>Futures markets are typically supposed to respond to new information in a timely manner. The U.S. Energy Information Administration (EIA) releases the Weekly Petroleum Status Report every Wednesday at 10:30 a.m. ET…</p>
-<p><a href="./announcement.html">Read more →</a></p>
-<center>
-<hr style="width:80%">
-</center>
+<h1>How energy futures markets respond to EIA Weekly Petroleum Status Report</h1>
+<ul>
+<li>Futures markets are typically supposed to respond to new information in a timely manner. The U.S. Energy Information Administration (EIA) releases the Weekly Petroleum Status Report every Wednesday at 10:30 a.m. ET, which provides the latest information about petroleum inventories in the U.S. and it is widely followed by energy traders.
+<ul>
+<li>EIA report announces the inventory levels of crude oil, gasoline, and distillate fuel (heating oil and diesel) in the U.S for the last week ending on Friday. Hence, the information is about the historical inventory while has not released to the public before the report release time.</li>
+<li>EIA report contains fundamental information about the supply and demand of petroleum products, and this information should be incorporated into futures prices in a timely manner, according to the efficient market hypothesis.</li>
+<li>The EIA report is relased following an “announcement” style at a scheduled time while energy futures markets are open for trading. This constrsts to other announcements, such as the public firm’s earnings announcements, which are typically released after the market closes.</li>
+</ul></li>
+<li>I analyze how the energy futures markets respond to the EIA Weekly Petroleum Status Report. I focus on the WTI crude oil, RBOB gasoline, and heating oil futures markets.
+<ul>
+<li>These are widely traded petroleum products in the U.S. I also include the natural gas futures market for comparision, which is not directly related to petroleum products.</li>
+</ul></li>
+</ul>
+<section id="what-indicators-are-used-to-measure-the-market-response" class="level2">
+<h2 class="anchored" data-anchor-id="what-indicators-are-used-to-measure-the-market-response">What indicators are used to measure the market response?</h2>
+<ul>
+<li>The widely used indicators to measure the market response are the trading volume and (realized) volatility.
+<ul>
+<li>Trading volume reflects the intestity of executed trades around announcment periods.</li>
+<li>Realized volatility reflects the magnitude of price changes around announcement periods. Like what you see a huge body in a candlestick chart, the price change is large and the realized volatility is high.</li>
+</ul></li>
+<li>I use time and sales data to calculate the trading volume and realized volatility for each futures contract. I focus on the 30-minute period before and after the EIA report release time (10:30 a.m. ET).
+<ul>
+<li>The trading volume is calculated as the total number of contracts traded every minute interval during the 30-minute period.</li>
+<li>The realized volatility is calculated as the sqaure root of the sum of squared returns every minute interval during the 30-minute period. Since it’s calculated as squared returns, you do not need to worry about the direction of price changes. The realized volatility is always non-negative.</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="energy_ann.png" class="img-fluid figure-img"></p>
+<figcaption>Trading volume and realized volatility.</figcaption>
+</figure>
+</div>
+<ul>
+<li>HUGE increase in trading volume and realized volatility when the EIA report is released for all markets, execpt for the natural gas futures. The largest response is observed at exactly within 1 minute after the report release time. Market is way efficient in responding to the new information.
+<ul>
+<li>To verify my results are driven by announcments, I also calculate the trading volume and realized volatility for the same time period on the non-announcement days. The results show that there is no significant increase in trading volume and realized volatility, which suggests that the results on Wednesday are indeed driven by the EIA report release.</li>
+</ul></li>
+<li>The natural gas futures market does not respond to the EIA report release, which is consistent with the fact that natural gas is not directly related to petroleum products.</li>
+</ul>
 </section>
-<section id="how-to-rollover-futures-contracts" class="level1">
-<h1>How to rollover futures contracts?</h1>
-<p>Rolling from an expiring contract to the next one is a common practice in futures trading. Even though it is as simple as closing the front-month leg and opening the back-month leg, there is not so much guidance on how to trade during this period. I find exchange-traded calendar spread contracts are pretty useful for this purpose…</p>
-<p><a href="./calendar_spreads.html">Read more →</a></p>
-<center>
-<hr style="width:80%">
-</center>
-</section>
-<section id="price-discovery" class="level1">
-<h1>Price discovery</h1>
-<p>Price discovery is one of the well-known financial terms…</p>
-<p><a href="./price_discovery.html">Read more →</a></p>
-<center>
-<hr style="width:80%">
-</center>
-</section>
-<section id="continuous-futures-data-construction" class="level1">
-<h1>Continuous Futures Data Construction</h1>
-<p>Every futures contract has its expiration date, and no data are available afterwards. Thus, we need to construct a “continuous” futures by rolling from an expiring contract to the next one…</p>
-<p><a href="./rollover.html">Read more →</a></p>
-<center>
-<hr style="width:80%">
-</center>
-</section>
-<section id="price-limit-days-in-agricultural-futures-markets" class="level1">
-<h1>Price limit days in agricultural futures markets</h1>
-<p>Price limit is one of the ways that exchanges would use to monitor trading activities, especially extreme price movements. In the agricultural futures markets, CME has implemented different price limit schedules…</p>
-<p><a href="./price_limits.html">Read more →</a></p>
+<section id="market-responses-to-unexpected-components-of-the-eia-report" class="level2">
+<h2 class="anchored" data-anchor-id="market-responses-to-unexpected-components-of-the-eia-report">Market responses to unexpected components of the EIA report</h2>
+<ul>
+<li>For each announcement, news media such as Bloomberg typically report the market expectation of the EIA report. The market expectation is typically based on the survey of industrial analysts, and it is followed by traders. The difference between the actual report and the market expectation is called “market surprise.”</li>
+<li>Let me walk through the following expression: <span class="math display">\[
+A_t - A_{t-1} = \underbrace{(A_t-F_t)}_{\text{market surprise}}+\underbrace{(F_t-A_{t-1})}_{\text{anticipated change}},
+\]</span></li>
+</ul>
+<p>where <span class="math inline">\(A_t\)</span> is the actual report value at time <span class="math inline">\(t\)</span>, <span class="math inline">\(F_t\)</span> is the analyst’s (median) forecast at time <span class="math inline">\(t\)</span>, and <span class="math inline">\(A_{t-1}\)</span> is the previous report value at time <span class="math inline">\(t-1\)</span>. <span class="math inline">\(A_t - A_{t-1}\)</span> is the change in the report value, which can be decomposed into two components: the market surprise and the anticipated change. The market surprise is the difference between the actual report and the market expectation (<span class="math inline">\(A_t-F_t\)</span>), while the anticipated change is the difference between the market expectation and the previous report value (<span class="math inline">\(F_t-A_{t-1}\)</span>).</p>
+<ul>
+<li>The price direction (either up or down) is likely to be determined by the market surprise.
+<ul>
+<li>For “less is better” indicator, positive suprise would indicate price decrease. For example, higher-then-expected inventory (<span class="math inline">\(A_t-F_t &gt;0\)</span>) indicates market is not so tight as analysts’ expectations. Hence, the market price is most likely to decrease.</li>
+</ul></li>
+</ul>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+<p>Thoughts or questions?<br>
+<script type="text/javascript">
+<!--
+h='&#x69;&#108;&#108;&#x69;&#110;&#x6f;&#x69;&#x73;&#46;&#x65;&#100;&#x75;&#x3f;&#x73;&#x75;&#98;&#106;&#x65;&#x63;&#116;&#x3d;&#x43;&#x6f;&#x6d;&#x6d;&#x65;&#110;&#116;';a='&#64;';n='&#114;&#x75;&#x63;&#104;&#x75;&#x61;&#110;&#50;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail btn btn-outline-primary">'+'&#84;&#104;&#x6f;&#x75;&#x67;&#104;&#116;&#x73;&#32;&#x61;&#110;&#100;&#32;&#x71;&#x75;&#x65;&#x73;&#116;&#x69;&#x6f;&#110;&#x73;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>Thoughts and questions (ruchuan2 at illinois dot edu?subject=Comment)</noscript></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
