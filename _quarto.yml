@@ -20,7 +20,7 @@ website:
         href: publications.qmd                                  
       - text: Teaching 
         href: teaching.qmd
-      - text: Programming Packages 
+      - text: Big Data and Programming Packages 
         href: packages.qmd
       - text: Futures Market Blogs
         href: futures_blog.qmd

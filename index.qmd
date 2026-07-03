@@ -46,7 +46,7 @@ My research also focuses on energy economics, such as the response of energy fut
 
 I also work on electricity market designs, such as bidding strategies in day-ahead and real-time markets and how these affect the market efficiency and price volatility. 
 
-I'm also interested in financial data engineering. I have developed two programming packages for CME market data parsing and analyzing.  
+I'm also interested in financial data engineering and big data analytics. I have developed three programming packages for CME market data parsing and analyzing, and financial price discovery of multiple trading venues.  
 
 I will be at 2026-2027 job market. 
 
@@ -55,7 +55,7 @@ I will be at 2026-2027 job market.
 * Electronic Trading and Market Microstructure
 * Energy Economics and Finance
 * Electricity Market Design
-* Financial Data Engineering
+* Big Financial Data Engineering
 * Price Analysis
 
 ## Timeline for Conferences - 2026
