@@ -9,7 +9,6 @@ body {
 }
 
 .abstract-fold summary {
-   color: #000;
   cursor: pointer;
   font-weight: normal;
   font-size: 1em;
