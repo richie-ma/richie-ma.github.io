@@ -42,14 +42,15 @@ I'm a Ph.D. candidate at Department of Agricultural and Consumer Economics, Univ
 
 My major research interests are commodity futures and options and price analysis, with a main focus on market microstructure and electronic trading using big data techniques. My work concerns how market efficiency evolves, and how market design and trading rules affect market quality, including market liquidity, price discovery, and trader's welfare. My research also provides empirical evidence to exchanges and regulators, such as Chicago Exchange Mercantile (CME) and Commodity Futures Trading Commission (CFTC) for helping strengthen market transparency and integrity. In practice, my work bridges the gap between risk management strategies (**"what to trade"**) and real trade executions (**"how to trade"**).
 
-I'm also interested in big data analytics and machine learning. I have developed three programming packages for CME market data parsing and analyzing, and financial price discovery of multiple trading venues.  
+I also focus on food marketing. My recent project focuses on how mass media, such as widely viewed domulentaries, affect the agricultural and food industry.
 
-I'm open to collaboration in the areas of generally commodity futures and options, including conventional topics, like storage, hedging, and risk management, as well as in market microstructure and electronic trading.
+I'm also interested in big data analytics and machine learning. I have developed three programming packages for CME market data parsing and analyzing, and financial price discovery of multiple trading venues.  
 
 I will be at 2026-2027 job market. 
 
 ## Research Interests
 * Commodity Futures Markets
+* Food Marketing
 * Electronic Trading and Market Microstructure
 * Energy Economics and Finance
 * Big Data and Financial Engineering
