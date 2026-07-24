@@ -5,7 +5,7 @@ css: custom.css
 ---
 
 # Peer-reviewed Publications
-## Market microstructure and electronic trading
+## Commodity trading
 <details class="abstract-fold" open>
 <summary>
 **Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Is liquidity provision informative? Evidence from agricultural futures markets**](https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12479). ***American Journal of Agricultural Economics***, January 2025
@@ -44,6 +44,7 @@ css: custom.css
 </details>
 
 # Working Papers
+## Commodity trading
 <details class="abstract-fold" open>
 <summary>
 **Who benefits from a faster exchange? Evidence from agricultural futures electronic trading [Job market paper]** *Draft available upon request*.
@@ -96,5 +97,12 @@ css: custom.css
 </p>
 </details>
 
-* [Draft](https://www.dropbox.com/scl/fi/7iaozrc51c4p7ayqtpg68/tick_size_manuscript.pdf?rlkey=wlc7ne6c363zfx721rtdl8h8v&e=2&dl=0)
 * **Presentations**: UIUC ACE FACS; 2024 NCCC-134 Conference
+
+# Work in progress
+**The Impact of Freight Chokepoints on U.S. Soybean Exports: Evidence from the Panama Canal** with Teresa Serra. 
+*Funded by the USDA ERS Non-Assistance Cooperative Aggrement (PI: Teresa Serra)*
+
+**Trademarks from Local Specialties: The Documentary Effect of A Bite of China** with Zhankun Chen and Yiyi Zhao.
+
+**Crop insurance participation and grain merchandising: Evidence from the U.S. corn belt**
