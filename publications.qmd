@@ -43,6 +43,14 @@ css: custom.css
 </p>
 </details>
 
+# Work in progress
+**The Impact of Freight Chokepoints on U.S. Soybean Exports: Evidence from the Panama Canal** with Teresa Serra. 
+*Funded by the USDA ERS Non-Assistance Cooperative Aggrement (PI: Teresa Serra)*
+
+**Trademarks from Local Specialties: The Documentary Effect of A Bite of China** with Zhankun Chen and Yiyi Zhao.
+
+**Crop insurance participation and grain merchandising: Evidence from the U.S. corn belt**
+
 # Working Papers
 ## Commodity trading
 <details class="abstract-fold" open>
@@ -98,11 +106,3 @@ css: custom.css
 </details>
 
 * **Presentations**: UIUC ACE FACS; 2024 NCCC-134 Conference
-
-# Work in progress
-**The Impact of Freight Chokepoints on U.S. Soybean Exports: Evidence from the Panama Canal** with Teresa Serra. 
-*Funded by the USDA ERS Non-Assistance Cooperative Aggrement (PI: Teresa Serra)*
-
-**Trademarks from Local Specialties: The Documentary Effect of A Bite of China** with Zhankun Chen and Yiyi Zhao.
-
-**Crop insurance participation and grain merchandising: Evidence from the U.S. corn belt**
