@@ -45,7 +45,6 @@ css: custom.css
 
 # Work in progress
 **The Impact of Freight Chokepoints on U.S. Soybean Exports: Evidence from the Panama Canal** with Teresa Serra. 
-*Funded by the USDA ERS Non-Assistance Cooperative Aggrement (PI: Teresa Serra)*
 
 **Trademarks from Local Specialties: The Documentary Effect of A Bite of China** with Zhankun Chen and Yiyi Zhao.
 
