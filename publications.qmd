@@ -46,9 +46,9 @@ css: custom.css
 # Work in progress
 **The Impact of Freight Chokepoints on U.S. Soybean Exports: Evidence from the Panama Canal** with Teresa Serra. 
 
-**Trademarks from Local Specialties: The Documentary Effect of A Bite of China** with Zhankun Chen and Yiyi Zhao.
+**Trademarks from Local Specialties: The Documentary Effect of *A Bite of China*** with Zhankun Chen and Yiyi Zhao.
 
-**Crop insurance participation and grain merchandising: Evidence from the U.S. corn belt**
+**Grain merchandising and crop insurance: The role of premium subsidies**
 
 # Working Papers
 ## Commodity trading
