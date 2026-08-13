@@ -46,11 +46,17 @@ css: custom.css
 </details>
 
 # Work in progress
-**The Impact of Freight Chokepoints on U.S. Soybean Exports: Evidence from the Panama Canal** with Teresa Serra. 
-
-**Trademarks from Local Specialties: The Documentary Effect of *A Bite of China*** with Zhankun Chen (CUHK) and Yiyi Zhao (CUHK).
-
 **Grain merchandising and crop insurance: Evidence from the U.S. corn belt**
+
+**Local cash–futures basis and climate-related natural disasters: Corporate spillover effects**
+
+**The impact of freight chokepoints on U.S. soybean exports: Evidence from the Panama Canal** with Teresa Serra. 
+
+**Trademarks from local specialties: The documentary effect of *A Bite of China*** with Zhankun Chen (CUHK) and [Yiyi Zhao](https://yiyizhao.weebly.com/) (CUHK).
+
+**Finer prices, better liquidity? Tick size, market quality, and price discovery in Chinese soybean oil futures markets** with Xiaoyi Fang (U Arkansas)
+
+**Futures price limits and options trading: Evidence from livestock markets** with Xiaoyi Fang (U Arkansas)
 
 # Working Papers
 ## Commodity trading
