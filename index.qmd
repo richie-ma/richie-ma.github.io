@@ -52,9 +52,9 @@ I will be at 2026-2027 job market.
 
 ## Research Interests
 * Commodity Futures Markets
+* Risk Management
 * Food Marketing
 * Electronic Trading and Market Microstructure
-* Big Data and Financial Engineering
 * Price Analysis
 
 :::
