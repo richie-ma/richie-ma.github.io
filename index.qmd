@@ -38,17 +38,15 @@ about:
 
 :::{#hero-heading}
 
-I'm a Ph.D. candidate at Department of Agricultural and Consumer Economics, University of Illinois at Urbana-Champaign.
+I'm a Ph.D. candidate at Department of Agricultural and Consumer Economics, University of Illinois at Urbana-Champaign. I will be at 2026-2027 job market. 
 
-My research focuses on the economics of commodity markets, including futures trading, grain merchandising, risk management, and food marketing. 
+My research focuses on the economics of commodity markets, including futures trading, grain merchandising, risk management, and food marketing. I welcome opportunities for research collaboration. Please feel free to reach out to me if you are interested in discussing potential collaborations.
 
 My PhD research focuses on market microstructure and electronic trading using big data techniques. My work concerns how market efficiency evolves, and how market design and trading rules affect market quality, including market liquidity, price discovery, and trader's welfare. My research also provides empirical evidence to exchanges and regulators, such as Chicago Exchange Mercantile (CME) and Commodity Futures Trading Commission (CFTC) for helping strengthen market transparency and integrity. In practice, my work bridges the gap between risk management strategies (**"what to trade"**) and real trade executions (**"how to trade"**).
 
 I also focus on linkages between crop insurance and other risk management tools, such as forward contracting and futures hedging. I study how farmers decide to use alternative risk management tools alongside the subsidized crop insurance, and how grain merchandisers decide to contract with farmers and hedge their basis risk in futures markets. 
 
 I'm also interested in big data analytics and machine learning. I have developed three programming packages for CME market data parsing and analyzing, and financial price discovery of multiple trading venues.  
-
-I will be at 2026-2027 job market. 
 
 ## Research Interests
 * Commodity Futures Markets
