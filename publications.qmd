@@ -50,11 +50,11 @@ css: custom.css
 
 **Local cash–futures basis and climate-related natural disasters: Corporate spillover effects**
 
-**The impact of freight chokepoints on U.S. soybean exports: Evidence from the Panama Canal** with Teresa Serra. 
+**Geopolitical disruptions and oil trade: Evidence from the Strait of Hormuz closure** 
 
-**Trademarks from local specialties: The documentary effect of *A Bite of China*** with Zhankun Chen (CUHK) and [Yiyi Zhao](https://yiyizhao.weebly.com/) (CUHK).
+**Trademarks from local specialties: The documentary effect of *A Bite of China*** with Zhankun Chen (CUHK) and [Yiyi Zhao](https://yiyizhao.weebly.com/) (CUHK)
 
-**Finer prices, better liquidity? Tick size, market quality, and price discovery in Chinese soybean oil futures markets** with Xiaoyi Fang (U Arkansas)
+**Finer pricing grid, better market liquidity? Evidence from Chinese soybean oil futures markets** with Xiaoyi Fang (U Arkansas)
 
 **Futures price limits and options trading: Evidence from livestock markets** with Xiaoyi Fang (U Arkansas)
 
@@ -84,7 +84,6 @@ css: custom.css
 
 
 * [AAEA version](https://ageconsearch.umn.edu/record/404352?ln=en&v=pdf); [Slides](https://www.dropbox.com/scl/fi/cdib5p3dbgaqw3bk12m9g/Options-slides.pdf?rlkey=bw3jf9b11i0pvfw8qsj9kqd3n&dl=0)
-* Subsuming the 1st chapter of my PhD dissertation at the UIUC.
 * **Presentations**: Inter–Finance PhD; UIUC ACE FACS; 2024 Summer School on Market Microstructure; 2025 AFA Annual Meeting Ph.D. Poster Session; 2025 SWFA Annual Meeting; 2025 MFA Annual Meeting; 2025 NCCC–134 Conference; 2026 AAEA Annual Meeting
 
 <center><hr style="width:100%"></center>
@@ -100,11 +99,15 @@ As trading has transitioned to electronic platforms, both traders and exchanges 
 </details>
 
 * [NCCC-134 version](https://farmdoc.illinois.edu/publications/one-contract-two-deals-electronic-trading-design-of-exchange-traded-calendar-spreads)
-* Subsuming the 2nd chapter of my PhD dissertation at the UIUC.
 * **Presentations**: UIUC ACE FACS; 2026 NCCC–134 Conference
 
 <center><hr style="width:100%"></center>
 
-Austin Belman, Esteban Vizcarrondo, **Richie R. Ma**, and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Algorithmic trading and liquidity in overnight U.S. agricultural futures markets**
-
+Austin Belman, **Richie R. Ma**, Esteban Vizcarrondo, and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Algorithmic trading and liquidity in overnight U.S. agricultural futures markets**
+</summary>
+<p>
+ **Abstract**:
+We examine whether algorithmic trading (AT) sustains market quality during thin overnight sessions in corn and soybean futures markets, treating the overnight session as an analogue for additional trading hours under a 24/7 regime. Daytime trading, with greater participation from commercial and other human traders, provides a high-participation benchmark. Using tick-level intraday data from 2016 to 2024, we compare associations between message-based AT intensity and effective spreads (trading costs), realized spreads (liquidity-provider gross revenues), and price impacts (adverse-selection costs) across daytime and overnight sessions. AT is associated with lower trading costs in both commodities and lower adverse-selection costs, although these associations weaken more overnight in corn than in soybeans. The results do not support agricultural stakeholders' concern that greater reliance on AT would degrade market quality during the additional low-participation hours created by continuous trading.
+</p>
+</details>
 * **Presentations**: 2026 NCCC-134 Conference
