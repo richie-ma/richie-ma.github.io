@@ -103,6 +103,8 @@ As trading has transitioned to electronic platforms, both traders and exchanges 
 
 <center><hr style="width:100%"></center>
 
+<details class="abstract-fold" open>
+<summary>
 Austin Belman, **Richie R. Ma**, Esteban Vizcarrondo, and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Algorithmic trading and liquidity in overnight U.S. agricultural futures markets**
 </summary>
 <p>
