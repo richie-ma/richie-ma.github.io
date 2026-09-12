@@ -16,7 +16,7 @@ css: custom.css
 </p>
 </details>
 
-* [SSRN version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7398138); [AAEA version](https://ageconsearch.umn.edu/record/404352?ln=en&v=pdf); [Slides](https://www.dropbox.com/scl/fi/cdib5p3dbgaqw3bk12m9g/Options-slides.pdf?rlkey=bw3jf9b11i0pvfw8qsj9kqd3n&dl=0) [Replication Codes](https://www.dropbox.com/scl/fi/e0vqt9ckz8xclxf2yp631/Replication_Codes_ERAE.zip?rlkey=qaaaaurog0h1qsfob12ad3mow&dl=0); [Internet Appendix](https://www.dropbox.com/scl/fi/y70nw8ye06zh14mda09hl/Supplementary_Appendix_ERAE.pdf?rlkey=r44knhgqbtx42n3b2zq4xv0jo&dl=0);
+* [SSRN version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7398138); [AAEA version](https://ageconsearch.umn.edu/record/404352?ln=en&v=pdf); [Slides](https://www.dropbox.com/scl/fi/cdib5p3dbgaqw3bk12m9g/Options-slides.pdf?rlkey=bw3jf9b11i0pvfw8qsj9kqd3n&dl=0); [Replication Codes](https://www.dropbox.com/scl/fi/e0vqt9ckz8xclxf2yp631/Replication_Codes_ERAE.zip?rlkey=qaaaaurog0h1qsfob12ad3mow&dl=0); [Internet Appendix](https://www.dropbox.com/scl/fi/y70nw8ye06zh14mda09hl/Supplementary_Appendix_ERAE.pdf?rlkey=r44knhgqbtx42n3b2zq4xv0jo&dl=0);
 * Superseding early working papers circulated under the titles ["Fast but noisy: Why options react first in agricultural derivatives markets"](https://ageconsearch.umn.edu/record/404352?ln=en&v=pdf) and "Tick size and price discovery: Futures--options evidence."
 * **Presentations**: Inter–Finance PhD; UIUC ACE FACS; 2024 Summer School on Market Microstructure; 2025 AFA Annual Meeting Ph.D. Poster Session; 2025 SWFA Annual Meeting; 2025 MFA Annual Meeting; 2025 NCCC–134 Conference; 2026 AAEA Annual Meeting
 
@@ -74,7 +74,8 @@ css: custom.css
 
 **Futures price limits and options trading: Evidence from livestock markets** with Xiaoyi Fang (U Arkansas)
 
-# Working Papers (^ denote presentation by co-authors)
+# Working Papers
+^ denotes presentation by co-authors
 ## Commodity trading
 <details class="abstract-fold" open>
 <summary>
