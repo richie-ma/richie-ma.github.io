@@ -8,7 +8,7 @@ css: custom.css
 ## Commodity trading
 <details class="abstract-fold" open>
 <summary>
-**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Quoting behavior and price discovery in agricultural derivatives markets**. *Accepted at European Review of Agricultural Economics*
+**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Quoting behavior and price discovery in agricultural derivatives markets**. Accepted at ***European Review of Agricultural Economics***
 </summary>
 <p>
  **Abstract**:
@@ -16,13 +16,13 @@ css: custom.css
 </p>
 </details>
 
-* [SSRN version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7398138); [AAEA version](https://ageconsearch.umn.edu/record/404352?ln=en&v=pdf); [Slides](https://www.dropbox.com/scl/fi/cdib5p3dbgaqw3bk12m9g/Options-slides.pdf?rlkey=bw3jf9b11i0pvfw8qsj9kqd3n&dl=0)
+* [SSRN version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7398138); [AAEA version](https://ageconsearch.umn.edu/record/404352?ln=en&v=pdf); [Slides](https://www.dropbox.com/scl/fi/cdib5p3dbgaqw3bk12m9g/Options-slides.pdf?rlkey=bw3jf9b11i0pvfw8qsj9kqd3n&dl=0) [Replication Codes](https://www.dropbox.com/scl/fi/e0vqt9ckz8xclxf2yp631/Replication_Codes_ERAE.zip?rlkey=qaaaaurog0h1qsfob12ad3mow&dl=0); [Internet Appendix](https://www.dropbox.com/scl/fi/y70nw8ye06zh14mda09hl/Supplementary_Appendix_ERAE.pdf?rlkey=r44knhgqbtx42n3b2zq4xv0jo&dl=0);
 * Superseding early working papers circulated under the titles ["Fast but noisy: Why options react first in agricultural derivatives markets"](https://ageconsearch.umn.edu/record/404352?ln=en&v=pdf) and "Tick size and price discovery: Futures--options evidence."
 * **Presentations**: Inter–Finance PhD; UIUC ACE FACS; 2024 Summer School on Market Microstructure; 2025 AFA Annual Meeting Ph.D. Poster Session; 2025 SWFA Annual Meeting; 2025 MFA Annual Meeting; 2025 NCCC–134 Conference; 2026 AAEA Annual Meeting
 
 <center><hr style="width:100%"></center>
 
-<details class="abstract-fold" open>
+<details class="abstract-fold">
 <summary>
 **Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Is liquidity provision informative? Evidence from agricultural futures markets**](https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12479). ***American Journal of Agricultural Economics***, January 2025
 </summary>
@@ -74,15 +74,15 @@ css: custom.css
 
 **Futures price limits and options trading: Evidence from livestock markets** with Xiaoyi Fang (U Arkansas)
 
-# Working Papers
+# Working Papers (^ denote presentation by co-authors)
 ## Commodity trading
 <details class="abstract-fold" open>
 <summary>
-**Richie R. Ma**, [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Who benefits from a faster exchange? Evidence from agricultural futures electronic trading [Job market paper]** *Draft coming soon*.
+**Richie R. Ma**, [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Shared queue, shared risk: Exchange latency and market quality [Job market paper]** *Draft coming soon*.
 </summary>
 <p>
  **Abstract**:
- As trading has transitioned to electronic platforms, both traders and exchanges have invested in technologies that reduce trading latency. Yet little is known about how exchange processing latency affects market quality or whether its effects differ across market participants. Using message data from the Chicago Mercantile Exchange (CME), we examine these effects and their distribution between liquidity providers and liquidity takers. To address endogeneity, we exploit cross-commodity processing congestion arising from the shared order-processing system as an instrument for exchange latency. We find that lower exchange latency primarily benefits liquidity providers by increasing market-making revenues while reducing adverse selection costs, but can increase the immediate trading costs borne by liquidity takers. Our findings also reveal a congestion-based externality across commodity markets and highlight the importance of processing capacity in exchange design.
+ As trading has transitioned to electronic platforms, both traders and exchanges have invested in technologies that reduce trading latency. Yet little is known about how exchange processing latency affects market quality or whether its effects differ across market participants. Using message data from the Chicago Mercantile Exchange (CME), we examine these effects and their distribution between liquidity providers and liquidity takers. To address endogeneity, we exploit cross-commodity processing traffic conditions arising from the shared order-processing system as an instrument for exchange latency, whereby message traffic from other agricultural commodities delays the processing of a given order but is otherwise unrelated to its market quality. We find that lower exchange latency primarily benefits liquidity providers by increasing market-making revenues while reducing adverse selection costs, but can increase the immediate trading costs borne by liquidity takers. Our findings also reveal a congestion-based externality across agricultural commodities and highlight the corresponding execution risk in exchange design.
 </p>
 </details>
 
@@ -98,7 +98,7 @@ Electronic trading allows traders to execute calendar spreads simultaneously rat
 </p>
 </details>
 
-* [NCCC-134 version](https://farmdoc.illinois.edu/publications/one-contract-two-deals-electronic-trading-design-of-exchange-traded-calendar-spreads)
+* [SSRN version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7425358); [NCCC-134 version](https://farmdoc.illinois.edu/publications/one-contract-two-deals-electronic-trading-design-of-exchange-traded-calendar-spreads)
 * **Presentations**: UIUC ACE FACS; 2026 NCCC–134 Conference
 
 <center><hr style="width:100%"></center>
@@ -112,4 +112,4 @@ Austin Belman, **Richie R. Ma**, [Esteban Vizcarrondo](https://estebanvizcarrond
 We examine whether algorithmic trading (AT) sustains market quality during thin overnight sessions in corn and soybean futures markets, treating the overnight session as an analogue for additional trading hours under a 24/7 regime. Daytime trading, with greater participation from commercial and other human traders, provides a high-participation benchmark. Using tick-level intraday data from 2016 to 2024, we compare associations between message-based AT intensity and effective spreads (trading costs), realized spreads (liquidity-provider gross revenues), and price impacts (adverse-selection costs) across daytime and overnight sessions. AT is associated with lower trading costs in both commodities and lower adverse-selection costs, although these associations weaken more overnight in corn than in soybeans. The results do not support agricultural stakeholders' concern that greater reliance on AT would degrade market quality during the additional low-participation hours created by continuous trading.
 </p>
 </details>
-* **Presentations**: 2026 NCCC-134 Conference
+* **Presentations**: 2026 NCCC-134 Conference^
