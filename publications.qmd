@@ -76,6 +76,7 @@ css: custom.css
 
 # Working Papers
 ^ denotes presentation by co-authors
+
 ## Commodity trading
 <details class="abstract-fold" open>
 <summary>
