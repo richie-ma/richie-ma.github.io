@@ -8,7 +8,7 @@ css: custom.css
 ## Commodity trading
 <details class="abstract-fold" open>
 <summary>
-**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Quoting behavior and price discovery in agricultural derivatives markets**. Accepted at ***European Review of Agricultural Economics***
+**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Quoting behavior and price discovery in agricultural derivatives markets**](https://academic.oup.com/erae/advance-article/doi/10.1093/erae/jbag020/8894934?searchresult=1#578787795). Forthcoming at ***European Review of Agricultural Economics***
 </summary>
 <p>
  **Abstract**:
@@ -18,7 +18,7 @@ css: custom.css
 
 * [SSRN version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7398138); [AAEA version](https://ageconsearch.umn.edu/record/404352?ln=en&v=pdf); [Slides](https://www.dropbox.com/scl/fi/cdib5p3dbgaqw3bk12m9g/Options-slides.pdf?rlkey=bw3jf9b11i0pvfw8qsj9kqd3n&dl=0); [Replication Codes](https://www.dropbox.com/scl/fi/e0vqt9ckz8xclxf2yp631/Replication_Codes_ERAE.zip?rlkey=qaaaaurog0h1qsfob12ad3mow&dl=0); [Internet Appendix](https://www.dropbox.com/scl/fi/y70nw8ye06zh14mda09hl/Supplementary_Appendix_ERAE.pdf?rlkey=r44knhgqbtx42n3b2zq4xv0jo&dl=0);
 * Superseding early working papers circulated under the titles ["Fast but noisy: Why options react first in agricultural derivatives markets"](https://ageconsearch.umn.edu/record/404352?ln=en&v=pdf) and "Tick size and price discovery: Futures--options evidence."
-* **Presentations**: Inter–Finance PhD; UIUC ACE FACS; 2024 Summer School on Market Microstructure; 2025 AFA Annual Meeting Ph.D. Poster Session; 2025 SWFA Annual Meeting; 2025 MFA Annual Meeting; 2025 NCCC–134 Conference; 2026 AAEA Annual Meeting
+* **Presentations**: Inter–Finance PhD Seminar; UIUC ACE FACS; 2024 Summer School on Market Microstructure; 2025 AFA Annual Meeting Ph.D. Poster Session; 2025 SWFA Annual Meeting; 2025 MFA Annual Meeting; 2025 NCCC–134 Conference; 2026 AAEA Annual Meeting
 
 <center><hr style="width:100%"></center>
 
@@ -66,7 +66,7 @@ css: custom.css
 
 **Local cash–futures basis and climate-related natural disasters: Corporate spillover effects**
 
-**Geopolitical disruptions and oil trade: Evidence from the Strait of Hormuz closure** 
+**Geopolitical disruptions and oil trade: Evidence from the Strait of Hormuz closure**
 
 **Trademarks from local specialties: The documentary effect of *A Bite of China*** with Zhankun Chen (CUHK) and [Yiyi Zhao](https://yiyizhao.weebly.com/) (CUHK)
 
@@ -89,6 +89,7 @@ css: custom.css
 </details>
 
 * [Slides](https://www.dropbox.com/scl/fi/1hy438wbszblrxg3rmhba/Caught_in_the_queue_slides.pdf?rlkey=bnv954ic9u5ulq52iocej3zra&dl=0)
+* **Presentations**: Inter-Finance PhD Seminar; UIUC ACE FACS (scheduled); 2027 AFA Annual Meeting Ph.D. Poster Session (scheduled);
 
 <center><hr style="width:100%"></center>
 
