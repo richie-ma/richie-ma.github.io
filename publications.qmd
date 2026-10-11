@@ -80,7 +80,7 @@ css: custom.css
 ## Commodity trading
 <details class="abstract-fold" open>
 <summary>
-**Richie R. Ma**, [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Teresa Serra](https://ace.illinois.edu/directory/tserra). Caught in the Queue: Exchange Processing Latency and Market Quality** [Job market paper]
+**Richie R. Ma**, [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Caught in the Queue: Exchange Processing Latency and Market Quality** [Job market paper]
 </summary>
 <p>
  **Abstract**:
