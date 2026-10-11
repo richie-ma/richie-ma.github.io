@@ -8,7 +8,7 @@ css: custom.css
 ## Commodity trading
 <details class="abstract-fold" open>
 <summary>
-**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Quoting behavior and price discovery in agricultural derivatives markets**](https://academic.oup.com/erae/advance-article/doi/10.1093/erae/jbag020/8894934?searchresult=1#578787795). Forthcoming at ***European Review of Agricultural Economics***
+**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Quoting behavior and price discovery in agricultural derivatives markets**](https://academic.oup.com/erae/advance-article/doi/10.1093/erae/jbag020/8894934?searchresult=1#578787795). Forthcoming at ***European Review of Agricultural Economics***, 2026
 </summary>
 <p>
  **Abstract**:
@@ -66,7 +66,7 @@ css: custom.css
 
 **Local cash–futures basis and climate-related natural disasters: Corporate spillover effects**
 
-**Geopolitical disruptions and oil trade: Evidence from the Strait of Hormuz closure**
+**Geopolitical disruptions and oil trade: Evidence from the Strait of Hormuz closure** with  with [Berna Karali](https://sites.google.com/site/bkarali/home) (UGA), Kailing Li (UIUC), and [Teresa Serra](https://ace.illinois.edu/directory/tserra) (UIUC)
 
 **Trademarks from local specialties: The documentary effect of *A Bite of China*** with Zhankun Chen (CUHK) and [Yiyi Zhao](https://yiyizhao.weebly.com/) (CUHK)
 
@@ -80,7 +80,7 @@ css: custom.css
 ## Commodity trading
 <details class="abstract-fold" open>
 <summary>
-**Richie R. Ma**, [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Caught in the Queue: Exchange Processing Latency and Market Quality [Job market paper]** *Draft coming soon*.]
+**Richie R. Ma**, [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Teresa Serra](https://ace.illinois.edu/directory/tserra). Caught in the Queue: Exchange Processing Latency and Market Quality** [Job market paper]
 </summary>
 <p>
  **Abstract**:
@@ -88,7 +88,7 @@ css: custom.css
 </p>
 </details>
 
-* [Slides](https://www.dropbox.com/scl/fi/1hy438wbszblrxg3rmhba/Caught_in_the_queue_slides.pdf?rlkey=bnv954ic9u5ulq52iocej3zra&dl=0)
+* [SSRN version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7546760); [Slides](https://www.dropbox.com/scl/fi/1hy438wbszblrxg3rmhba/Caught_in_the_queue_slides.pdf?rlkey=bnv954ic9u5ulq52iocej3zra&dl=0)
 * **Presentations**: Inter-Finance PhD Seminar; UIUC ACE FACS (scheduled); 2027 AFA Annual Meeting Ph.D. Poster Session (scheduled);
 
 <center><hr style="width:100%"></center>
