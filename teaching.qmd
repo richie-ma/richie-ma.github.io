@@ -6,6 +6,9 @@ css: custom.css
 
 # University of Illinois at Urbana-Champaign
 
+## ACE 428 Commodity Futures and Options
+* [Spring 2027](https://courses.illinois.edu/schedule/2027/spring/ACE/428), Undergraduate & Graduate course, Department of Agricultural and Consumer Economics.
+
 ## ACE 264 Applied Statistical Methods & Data Analytics 2
 * [Fall 2026](https://courses.illinois.edu/schedule/2026/fall/ACE/264), Undergraduate course, Department of Agricultural and Consumer Economics.
 * Teaching Assistant with Professor [Sandy Dall'Erba](https://ace.illinois.edu/directory/dallerba)
