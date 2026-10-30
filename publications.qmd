@@ -80,16 +80,16 @@ css: custom.css
 ## Commodity trading
 <details class="abstract-fold" open>
 <summary>
-**Richie R. Ma**, [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Caught in the Queue: Exchange Processing Latency and Market Quality** [Job market paper]
+**Richie R. Ma**, [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Who needs a faster exchange? Evidence from agricultural futures electronic trading** [Job market paper]
 </summary>
 <p>
  **Abstract**:
- As speed becomes increasingly important in agricultural commodity trading, attention has focused largely on traders' decisions about their own speed to access the exchange, despite orders still facing exchange processing queues. We examine how queue-induced exchange processing latency--the time an exchange takes to process orders--affects market quality and how these effects are distributed between liquidity providers and takers. Using Chicago Mercantile Exchange raw message data, we instrument latency with the number of orders from other agricultural commodities that are queued ahead of a given order but have not yet completed processing. We find that faster quote processing increases liquidity providers' market-making revenue while reducing adverse selection costs. Faster trade processing also benefits liquidity providers but increases liquidity takers' immediate trading costs. These findings show that exchange processing speed has distributional effects across market participants, suggesting a source of execution risk beyond traders' own speed investments.
+ Like high-frequency traders, exchanges have invested heavily in reducing order-processing latency. Yet little is known about whether lower exchange latency improves market quality or how its benefits and costs are distributed across market participants. Using raw message data from the Chicago Mercantile Exchange (CME), we examine the causal effects of exchange latency on market quality and trading outcomes for liquidity providers and liquidity takers. To address endogeneity, we exploit cross-commodity processing congestion within the exchange as an instrument, whereby message traffic from other agricultural commodities delays the processing of a given order but is otherwise unrelated to its market quality. We find that lower exchange latency primarily benefits liquidity providers by increasing market-making revenues while reducing adverse selection costs, whereas higher exchange latency lowers the immediate trading costs borne by liquidity takers. Because all agricultural futures markets currently share a common order processing system, our findings shed light on a congestion-based externality and suggest that exchanges should account for these trade-offs in market design.
 </p>
 </details>
 
 * [SSRN version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7546760); [Slides](https://www.dropbox.com/scl/fi/1hy438wbszblrxg3rmhba/Caught_in_the_queue_slides.pdf?rlkey=bnv954ic9u5ulq52iocej3zra&dl=0)
-* **Presentations**: Inter-Finance PhD Seminar; UIUC ACE FACS; 2027 AFA Annual Meeting Ph.D. Poster Session (scheduled);
+* **Presentations**: Inter-Finance PhD Seminar; UIUC ACE FACS
 
 <center><hr style="width:100%"></center>
 
