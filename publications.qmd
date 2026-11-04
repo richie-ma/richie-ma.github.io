@@ -72,7 +72,7 @@ css: custom.css
 
 **Finer pricing grid, better market liquidity? Evidence from Chinese soybean oil futures markets** with Xiaoyi Fang (U Arkansas)
 
-**Futures price limits and options trading: Evidence from livestock markets** with Xiaoyi Fang (U Arkansas)
+**Does insurance participation enhance price discovery of cash markets?**
 
 # Working Papers
 ^ denotes presentation by co-authors
@@ -80,7 +80,7 @@ css: custom.css
 ## Commodity trading
 <details class="abstract-fold" open>
 <summary>
-**Richie R. Ma**, [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Who needs a faster exchange? Evidence from agricultural futures electronic trading** [Job market paper]
+**Richie R. Ma**, [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Who needs a faster exchange? Evidence from agricultural futures electronic trading** [Job market paper] *Under Review*
 </summary>
 <p>
  **Abstract**:
