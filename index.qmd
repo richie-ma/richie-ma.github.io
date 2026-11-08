@@ -48,8 +48,6 @@ My PhD research focuses on market microstructure and electronic trading using bi
 
 I also focus on the interconnections of various risk management tools, including forward contracts and crop insurances, and the interplay between different agents (e.g., farmers and merchandisers) who are involved in the commodity markets.
 
-I'm also interested in big data analytics and efficient computation. I have developed three programming packages for CME market data parsing and analyzing, and financial price discovery of multiple trading venues.  
-
 ## Research Interests
 * Commodity Futures Markets
 * Risk Management

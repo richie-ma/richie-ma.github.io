@@ -62,13 +62,13 @@ css: custom.css
 </details>
 
 # Work in progress
-**Grain merchandising and crop insurance: Evidence from the U.S. corn belt**
+**Grain merchandising and crop insurance: How elevators charge forward basis?**
 
-**Local cash–futures basis and climate-related natural disasters: Corporate spillover effects**
+**Impact of natural disasters to local grain merchandising: Evidence from the U.S. Corn Belt**
 
-**Geopolitical disruptions and oil trade: Evidence from the Strait of Hormuz closure** with [Berna Karali](https://sites.google.com/site/bkarali/home) (UGA), Kailing Li (UIUC), and [Teresa Serra](https://ace.illinois.edu/directory/tserra) (UIUC)
+**Geopolitical disruptions and oil trade: Evidence from the Strait of Hormuz closure** with [Berna Karali](https://sites.google.com/site/bkarali/home) (UGA), Kailing Li (UIUC), and [Teresa Serra](https://ace.illinois.edu/directory/tserra) (UIUC) *Draft coming soon*
 
-**Trademarks from local specialties: The documentary effect of *A Bite of China*** with Zhankun Chen (CUHK) and [Yiyi Zhao](https://yiyizhao.weebly.com/) (CUHK)
+**Trademarks from local specialties: The documentary effect of *A Bite of China*** with Zhankun Chen (CUHK) and [Yiyi Zhao](https://yiyizhao.weebly.com/) (CUHK) *Draft coming soon*
 
 **Finer pricing grid, better market liquidity? Evidence from Chinese soybean oil futures markets** with Xiaoyi Fang (U Arkansas)
 

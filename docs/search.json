@@ -7,6 +7,13 @@
     "text": "Spring 2027, Undergraduate & Graduate course, Department of Agricultural and Consumer Economics.\n\n\n\n\n\nFall 2026, Undergraduate course, Department of Agricultural and Consumer Economics.\nTeaching Assistant with Professor Sandy Dall’Erba\n\n\n\n\n\nFall 2025, Fall 2024, Graduate course, Department of Finance.\nRating: Teaching effectiveness (4.83/5); Course quaility (4.5/5)\nCo-instructor with Professor Brian Peterson\nSlides: Introduction to Bloomberg Terminal; Financial Market Overview\n\n\n\n\n\nSpring 2025, Undergraduate and Graduate course, Department of Industrial & Enterprise Systems Engineering\nTeaching Assistant with Professor David Lariviere\n\n\n\n\n\nFall 2024, Undergraduate and Graduate course, Department of Economics\nTeaching Assistant with Professor Joshua Shea"
   },
   {
+    "objectID": "teaching.html#ace-428-commodity-futures-and-options",
+    "href": "teaching.html#ace-428-commodity-futures-and-options",
+    "title": "University of Illinois at Urbana-Champaign",
+    "section": "",
+    "text": "Spring 2027, Undergraduate & Graduate course, Department of Agricultural and Consumer Economics."
+  },
+  {
     "objectID": "teaching.html#ace-264-applied-statistical-methods-data-analytics-2",
     "href": "teaching.html#ace-264-applied-statistical-methods-data-analytics-2",
     "title": "University of Illinois at Urbana-Champaign",
@@ -151,7 +158,7 @@
     "href": "index.html",
     "title": "Richie R. Ma",
     "section": "",
-    "text": "E-mail\n  \n  \n     Google Scholar\n  \n  \n     Curriculum Vitae\n  \n  \n     Homepage@UIUC\n  \n\n  \n  \nI’m a Ph.D. candidate at Department of Agricultural and Consumer Economics and member of the Office for Futures and Options Research, University of Illinois at Urbana-Champaign. I will be at 2026-2027 job market.\nMy research focuses on the economics of commodity markets, including futures trading, grain merchandising, risk management, and food marketing.\nI welcome opportunities for research collaboration. Please feel free to reach out to me if you are interested in discussing potential collaborations.\nMy PhD research focuses on market microstructure and electronic trading using big data techniques. My work concerns how market efficiency evolves, and how market design and trading rules affect market quality, including market liquidity, price discovery, and trader’s welfare. My research also provides empirical evidence to exchanges and regulators, such as Chicago Exchange Mercantile (CME) and Commodity Futures Trading Commission (CFTC) for helping strengthen market transparency and integrity. In practice, my work bridges the gap between risk management strategies (“what to trade”) and real trade executions (“how to trade”).\nI also focus on the interconnections of various risk management tools, including forward contracts and crop insurances, and the interplay between different agents (e.g., farmers and merchandisers) who are involved in the commodity markets.\nI’m also interested in big data analytics and efficient computation. I have developed three programming packages for CME market data parsing and analyzing, and financial price discovery of multiple trading venues.\n\n\n\nCommodity Futures Markets\nRisk Management\nFood Marketing\nElectronic Trading and Market Microstructure\nPrice Analysis"
+    "text": "E-mail\n  \n  \n     Google Scholar\n  \n  \n     Curriculum Vitae\n  \n  \n     Homepage@UIUC\n  \n\n  \n  \nI’m a Ph.D. candidate at Department of Agricultural and Consumer Economics and member of the Office for Futures and Options Research, University of Illinois at Urbana-Champaign. I will be at 2026-2027 job market.\nMy research focuses on the economics of commodity markets, including futures trading, grain merchandising, risk management, and food marketing.\nI welcome opportunities for research collaboration. Please feel free to reach out to me if you are interested in discussing potential collaborations.\nMy PhD research focuses on market microstructure and electronic trading using big data techniques. My work concerns how market efficiency evolves, and how market design and trading rules affect market quality, including market liquidity, price discovery, and trader’s welfare. My research also provides empirical evidence to exchanges and regulators, such as Chicago Exchange Mercantile (CME) and Commodity Futures Trading Commission (CFTC) for helping strengthen market transparency and integrity. In practice, my work bridges the gap between risk management strategies (“what to trade”) and real trade executions (“how to trade”).\nI also focus on the interconnections of various risk management tools, including forward contracts and crop insurances, and the interplay between different agents (e.g., farmers and merchandisers) who are involved in the commodity markets.\n\n\n\nCommodity Futures Markets\nRisk Management\nFood Marketing\nElectronic Trading and Market Microstructure\nPrice Analysis"
   },
   {
     "objectID": "index.html#research-interests",
@@ -187,12 +194,5 @@
     "title": "Continuous Futures Data Construction",
     "section": "Footnotes",
     "text": "Footnotes\n\n\n Paul, A.B. 1986. Liquidation Bias in Futures Price Spreads. American Journal of Agricultural Economics 68 (2):313–321.↩︎\nIrwin, Scott and Sanders, Dwight R. and Smith, Aaron and Yan, Lei, Was Allen Paul Right? Liquidation Bias in Commodity Futures Markets. Available at SSRN: https://ssrn.com/abstract=6071584↩︎"
-  },
-  {
-    "objectID": "teaching.html#ace-428-commodity-futures-and-options",
-    "href": "teaching.html#ace-428-commodity-futures-and-options",
-    "title": "University of Illinois at Urbana-Champaign",
-    "section": "",
-    "text": "Spring 2027, Undergraduate & Graduate course, Department of Agricultural and Consumer Economics."
   }
 ]
