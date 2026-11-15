@@ -12,6 +12,7 @@ css: custom.css
 ## ACE 264 Applied Statistical Methods & Data Analytics 2
 * [Fall 2026](https://courses.illinois.edu/schedule/2026/fall/ACE/264), Undergraduate course, Department of Agricultural and Consumer Economics.
 * Teaching Assistant with Professor [Sandy Dall'Erba](https://ace.illinois.edu/directory/dallerba)
+* [Course materials](https://www.dropbox.com/scl/fi/4y89x0n9rhweaj7uyh1jo/ACE-264.zip?rlkey=wfhl7mrgtpzdv7e173ey8xiwp&dl=0)
 
 ## FIN 554 Algorithmic Trading Systems Design and Testing
 * [Fall 2025](https://courses.illinois.edu/schedule/2025/fall/FIN/554), [Fall 2024](https://courses.illinois.edu/schedule/2024/fall/FIN/554), Graduate course,  Department of Finance.
