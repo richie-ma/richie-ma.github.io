@@ -6,71 +6,49 @@ css: custom.css
 
 # Peer-reviewed Publications
 ## Commodity trading
-<details class="abstract-fold" open>
-<summary>
-**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Quoting behavior and price discovery in agricultural derivatives markets**](https://academic.oup.com/erae/advance-article/doi/10.1093/erae/jbag020/8894934). ***European Review of Agricultural Economics***, September 2026
-</summary>
-<p>
- **Abstract**:
- Using Chicago Mercantile Exchange intraday data in 2024, this paper examines price discovery between agricultural futures and options. Options respond faster to new information, whereas futures contribute more to the efficient price shared by both markets. We provide a market microstructure explanation for this pattern. We find a 1% increase in options’ relative aggressive quoting, defined as quotes that move the best bid or offer price, is associated with a 0.25% increase in their relative speed of price adjustment and a 0.15% decline in their relative contribution to the efficient price. By contrast, options’ relative trading volume is negatively associated with their speed advantage and is unrelated to their contribution to the efficient price. These findings highlight the distinct roles of quoting and trading in cross-market price discovery.
-</p>
-</details>
 
+**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Quoting behavior and price discovery in agricultural derivatives markets**](https://academic.oup.com/erae/advance-article/doi/10.1093/erae/jbag020/8894934). ***European Review of Agricultural Economics***, Vol. 53, Issue 4 (September 2026), pp. 1314-1344.
+
+::: {style="font-size: 0.9em;"}
 * [SSRN version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7398138); [AAEA version](https://ageconsearch.umn.edu/record/404352?ln=en&v=pdf); [Slides](https://www.dropbox.com/scl/fi/cdib5p3dbgaqw3bk12m9g/Options-slides.pdf?rlkey=bw3jf9b11i0pvfw8qsj9kqd3n&dl=0); [Replication Codes](https://www.dropbox.com/scl/fi/e0vqt9ckz8xclxf2yp631/Replication_Codes_ERAE.zip?rlkey=qaaaaurog0h1qsfob12ad3mow&dl=0); [Internet Appendix](https://www.dropbox.com/scl/fi/y70nw8ye06zh14mda09hl/Supplementary_Appendix_ERAE.pdf?rlkey=r44knhgqbtx42n3b2zq4xv0jo&dl=0);
 * Subsuming early working papers circulated under the titles ["Fast but noisy: Why options react first in agricultural derivatives markets"](https://ageconsearch.umn.edu/record/404352?ln=en&v=pdf) and "Tick size and price discovery: Futures--options evidence."
-* **Presentations**: Inter–Finance PhD Seminar; UIUC ACE FACS; 2024 Summer School on Market Microstructure; 2025 AFA Annual Meeting Ph.D. Poster Session; 2025 SWFA Annual Meeting; 2025 MFA Annual Meeting; 2025 NCCC–134 Conference; 2026 AAEA Annual Meeting
+* **Presentations**: Inter–Finance PhD Seminar, UIUC ACE FACS, 2024 Summer School on Market Microstructure, 2025 AFA Annual Meeting Ph.D. Poster Session, 2025 SWFA Annual Meeting, 2025 MFA Annual Meeting, 2025 NCCC–134 Conference, 2026 AAEA Annual Meeting
+:::
 
 <center><hr style="width:100%"></center>
 
-<details class="abstract-fold">
-<summary>
-**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Is liquidity provision informative? Evidence from agricultural futures markets**](https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12479). ***American Journal of Agricultural Economics***, January 2025
-</summary>
-<p>
- **Abstract**:
- Electronic commodity trading witnesses a massive volume of order messages every trading day, but little is known about their informativeness. We examine limit order dynamics and their role in price discovery in the Chicago Mercantile Exchange (CME) corn, soybean, and wheat futures markets from January 2019 to June 2020, using order-level data. Between 75% and 79% of the large number of limit orders submitted are then deleted, which contrasts with the much smaller proportion getting executed or revised. Aggressive trades and limit orders substantially contribute to price discovery, whereas nonaggressive trades and limit orders, representing most market events, play a minor role. Following public information releases, there is a shift in trading strategies, with trades contributing more to price discovery and aggressive limit orders contributing less, compared to non-release days. Our findings suggest that most limit orders in agricultural futures markets continue to play the traditional role of uninformed liquidity provision.
-</p>
-</details>
+**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Is liquidity provision informative? Evidence from agricultural futures markets**](https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12479). ***American Journal of Agricultural Economics***, Vol. 107, Issue 1 (January 2025), pp. 125-151.
 
+::: {style="font-size: 0.9em;"}
 * [SSRN version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4795329); [AFA version](https://afajof.org/management/viewp.php?n=63476); [Internet Appendix](https://www.dropbox.com/scl/fi/hxwnuwjh1e1wfk6lgdv7h/AJAE_online_appendix.pdf?rlkey=o1fmsl524u9vpisbv87gwxkch&e=1&dl=0); [Replication Codes](https://www.dropbox.com/scl/fi/2tty65wu3lzevcvoped09/Replication_Codes.zip?rlkey=ajs0urgpp5utflh9ewgvwiw27&dl=0); [CME Data Cleaning Notes](https://www.dropbox.com/scl/fi/c38mrquy6a3vv03vbqf0v/Data-cleaning.pdf?rlkey=faameal5226tjk1m2gislsr6o&dl=0); [AFA Poster](https://www.dropbox.com/scl/fi/ie29qk29udjt0z632s5y8/AFA2024_poster.pdf?rlkey=gd4grb3obucbk67cddqy40i76&dl=0); [Slides](https://www.dropbox.com/scl/fi/fwxjdti81lot61jtgwkyr/AJAE-slides.pdf?rlkey=op6t73upmgrb3duyye2esq8pu&dl=0)
 * Previously circulated under the title ["Limit orders and price discovery: Evidence from agricultural futures markets"](https://afajof.org/management/viewp.php?n=63476)
 * Subsuming my [Master Thesis](https://www.ideals.illinois.edu/items/126670) at the UIUC by using a new dataset and adding analysis related to USDA public announcements.
-* **Presentations**: 2024 AFA Ph.D. Poster Session; 2023 NCCC-134 Conference; UIUC ACE Commercial Ag
-* **Award**: 2024 Peer-Reviewed Research Achievement, ACE Dept, UIUC</span>
+* **Presentations**: 2024 AFA Ph.D. Poster Session, 2023 NCCC-134 Conference, UIUC ACE Commercial Ag
+* **Award**: 2024 Peer-Reviewed Research Achievement, ACE Dept, UIUC
+:::
 
 ## Futures markets and price analysis
-<details class="abstract-fold">
-<summary>
-**Richie R. Ma**, [Tao Xiong](https://www.xiongtao.cc/home), and Yukun Bao. [**The Russia-Saudi Arabia oil price war during the COVID-19 pandemic**](https://www.sciencedirect.com/science/article/pii/S0140988321003984?via%3Dihub). ***Energy Economics***, October 2021
-</summary>
-<p>
- **Abstract**:
- The COVID-19 pandemic damaged crude oil markets and amplified the consequences of uncertainty stemming from the Russia-Saudi Arabia oil price war in March-April of 2020. We investigate the impacts of the oil price war on global crude oil markets. By doing so, we use the daily futures and spot prices in three major crude oil markets – West Texas Intermediate, European Brent, and Oman – to perform a systematic analysis of the impacts of the oil price war on them. The event study method, a well-established analytical tool to measure the impacts of a given event on markets, is used in this study. The results indicate that information leakage plays an important role in the impacts of the price war. The outbreak of and truce following the price war have asymmetrical impacts on the markets; negative impacts generated by information leakage during the outbreak are generally more durable than the positive ones it generated during the truce. Furthermore, the magnitude of the impacts on futures markets is negatively correlated with the time-to-maturity of futures. Finally, negative crude oil prices affect West Texas Intermediate crude oil markets the most. Our findings generally show that market participants could perceive and assimilate market changes and adjust their expectations, which restrained the impacts that should have occurred within the oil price war.
-</p>
-</details>
+
+**Richie R. Ma**, [Tao Xiong](https://www.xiongtao.cc/home), and Yukun Bao. [**The Russia-Saudi Arabia oil price war during the COVID-19 pandemic**](https://www.sciencedirect.com/science/article/pii/S0140988321003984?via%3Dihub). ***Energy Economics***, Vol. 102 (October 2021), Article 105517.
 
 <center><hr style="width:100%"></center>
 
-<details class="abstract-fold">
-<summary>
-**Richie R. Ma** and [Tao Xiong](https://www.xiongtao.cc/home). [**Price explosiveness in nonferrous metal futures markets**](https://www.sciencedirect.com/science/article/pii/S0264999320311962?via%3Dihub). ***Economic Modelling***, January 2021
-</summary>
-<p>
- **Abstract**:
- Whether high price volatility could reflect market fundamentals is still open to debate, although the literature has established the presence of price explosiveness in many financial markets. Using the futures prices of six dominant nonferrous metals in 2014–2018, we investigate the characteristics and determinants of price explosiveness in nonferrous metal futures markets. We find that during the past 15 years, the markets have displayed price explosiveness and they have limited ability to adjust to price changes. High interest rates would trigger price explosiveness through high investment cost, while a high exchange rate would decrease it by increasing nonferrous metal availability. An exuberant stock market would reduce price explosiveness by migrating risk from nonferrous metal markets. A booming economic environment causes price explosiveness through increased demand for nonferrous metals. Our findings refute the notion that market fundamentals can exclusively drive futures prices, even in the context of high price volatility.
-</p>
-</details>
+**Richie R. Ma** and [Tao Xiong](https://www.xiongtao.cc/home). [**Price explosiveness in nonferrous metal futures markets**](https://www.sciencedirect.com/science/article/pii/S0264999320311962?via%3Dihub). ***Economic Modelling***, Vol. 94 (January 2021), pp. 75-90.
 
 # Work in progress
 **Grain merchandising and crop insurance: How elevators charge forward basis?**
 
 **Impact of natural disasters to local grain merchandising: Evidence from the U.S. Corn Belt**
 
-**Geopolitical disruptions and oil trade: Evidence from the Strait of Hormuz closure** with [Berna Karali](https://sites.google.com/site/bkarali/home) (UGA), Kailing Li (UIUC), and [Teresa Serra](https://ace.illinois.edu/directory/tserra) (UIUC) *Draft coming soon*
+**Geopolitical disruptions and oil trade: Evidence from the Strait of Hormuz closure** [*Draft coming soon*]\
+with [Berna Karali](https://sites.google.com/site/bkarali/home) (UGA), Kailing Li (UIUC), and [Teresa Serra](https://ace.illinois.edu/directory/tserra) (UIUC) 
 
-**Trademarks from local specialties: The documentary effect of *A Bite of China*** with Zhankun Chen (CUHK) and [Yiyi Zhao](https://yiyizhao.weebly.com/) (CUHK) *Draft coming soon*
+**Trademarks from local specialties: The documentary effect of *A Bite of China*** 
+[*Draft coming soon*]\
+with Zhankun Chen (CUHK) and [Yiyi Zhao](https://yiyizhao.weebly.com/) (CUHK) *Draft coming soon*
 
-**Finer pricing grid, better market liquidity? Evidence from Chinese soybean oil futures markets** with Xiaoyi Fang (U Arkansas)
+**Finer pricing grid, better market liquidity? Evidence from Chinese soybean oil futures markets** [*Draft coming soon*]\
+with Xiaoyi Fang (U Arkansas)
 
 **Does insurance participation enhance price discovery of cash markets?**
 
@@ -78,43 +56,30 @@ css: custom.css
 ^ denotes presentation by co-authors
 
 ## Commodity trading
-<details class="abstract-fold" open>
-<summary>
+
 **Richie R. Ma**, [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Who needs a faster exchange? Evidence from agricultural futures electronic trading** [Job market paper] *Under Review*
-</summary>
-<p>
+
+::: {style="font-size: 0.9em;"}
  **Abstract**:
  Like high-frequency traders, exchanges have invested heavily in reducing order-processing latency. Yet little is known about whether lower exchange latency improves market quality or how its benefits and costs are distributed across market participants. Using raw message data from the Chicago Mercantile Exchange (CME), we examine the causal effects of exchange latency on market quality and trading outcomes for liquidity providers and liquidity takers. To address endogeneity, we exploit cross-commodity processing congestion within the exchange as an instrument, whereby message traffic from other agricultural commodities delays the processing of a given order but is otherwise unrelated to its market quality. We find that lower exchange latency primarily benefits liquidity providers by increasing market-making revenues while reducing adverse selection costs, whereas higher exchange latency lowers the immediate trading costs borne by liquidity takers. Because all agricultural futures markets currently share a common order processing system, our findings shed light on a congestion-based externality and suggest that exchanges should account for these trade-offs in market design.
-</p>
-</details>
 
 * [SSRN version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7546760); [Slides](https://www.dropbox.com/scl/fi/1hy438wbszblrxg3rmhba/Caught_in_the_queue_slides.pdf?rlkey=bnv954ic9u5ulq52iocej3zra&dl=0)
-* **Presentations**: Inter-Finance PhD Seminar; UIUC ACE FACS
+* **Presentations**: Inter-Finance PhD Seminar, UIUC ACE FACS, PhD-EVS Virtual Seminar
+:::
 
 <center><hr style="width:100%"></center>
 
-<details class="abstract-fold">
-<summary>
-**Richie R. Ma**, [Teresa Serra](https://ace.illinois.edu/directory/tserra), [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Scott H. Irwin](https://scotthirwin.com/). **One contract, two deals: Do exchange-traded calendar spreads matter?** *Under Review*
-</summary>
-<p>
- **Abstract**:
-Electronic trading allows traders to execute calendar spreads simultaneously rather than pairing two outright contracts. Through implied functionality, calendar spreads and outrights are tightly connected, reshaping liquidity provision in outright markets. We examine how the trading architecture of calendar spreads affects the trading outcomes for different groups of agricultural futures market participants. Using Chicago Mercantile Exchange (CME) intraday data, we focus on spread traders who rely on calendar spreads to meet their trading needs, and outright market makers. Counterfactual analyses show that calendar spreads improve execution quality and generate more informative signals about the futures term structure. Implied functionality increases adverse-selection risk borne by market makers, while leaving their gross revenues largely unchanged. Our findings highlight the trade-offs inherent in the current calendar-spread trading design.
-</p>
-</details>
+**Richie R. Ma**, [Teresa Serra](https://ace.illinois.edu/directory/tserra), [Brian G. Peterson](https://giesbusiness.illinois.edu/profile/brian-peterson), and [Scott H. Irwin](https://scotthirwin.com/). **One contract, two deals: Electronic Trading Design of Exchange-Traded Calendar Spreads** *Under Review*
 
+::: {style="font-size: 0.9em;"}
 * [SSRN version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7425358); [NCCC-134 version](https://farmdoc.illinois.edu/publications/one-contract-two-deals-electronic-trading-design-of-exchange-traded-calendar-spreads)
-* **Presentations**: UIUC ACE FACS; 2026 NCCC–134 Conference
+* **Presentations**: UIUC ACE FACS, 2026 NCCC–134 Conference
+:::
 
 <center><hr style="width:100%"></center>
 
-<details class="abstract-fold">
-<summary>
 Austin Belman, **Richie R. Ma**, [Esteban Vizcarrondo](https://estebanvizcarrondo.github.io/), and [Teresa Serra](https://ace.illinois.edu/directory/tserra). **Algorithmic trading and liquidity in overnight U.S. agricultural futures markets**
-</summary>
-<p>
- **Abstract**:
-We examine whether algorithmic trading (AT) sustains market quality during thin overnight sessions in corn and soybean futures markets, treating the overnight session as an analogue for additional trading hours under a 24/7 regime. Daytime trading, with greater participation from commercial and other human traders, provides a high-participation benchmark. Using tick-level intraday data from 2016 to 2024, we compare associations between message-based AT intensity and effective spreads (trading costs), realized spreads (liquidity-provider gross revenues), and price impacts (adverse-selection costs) across daytime and overnight sessions. AT is associated with lower trading costs in both commodities and lower adverse-selection costs, although these associations weaken more overnight in corn than in soybeans. The results do not support agricultural stakeholders' concern that greater reliance on AT would degrade market quality during the additional low-participation hours created by continuous trading.
-</p>
-</details>
-* **Presentations**: 2026 NCCC-134 Conference^; UIUC ACE FACS^
+
+::: {style="font-size: 0.9em;"}
+* **Presentations**: 2026 NCCC-134 Conference^, UIUC ACE FACS^
+:::
