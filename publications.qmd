@@ -8,7 +8,7 @@ css: custom.css
 ## Commodity trading
 <details class="abstract-fold" open>
 <summary>
-**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Quoting behavior and price discovery in agricultural derivatives markets**](https://academic.oup.com/erae/advance-article/doi/10.1093/erae/jbag020/8894934?searchresult=1#578787795). Forthcoming at ***European Review of Agricultural Economics***, 2026
+**Richie R. Ma** and [Teresa Serra](https://ace.illinois.edu/directory/tserra). [**Quoting behavior and price discovery in agricultural derivatives markets**](https://academic.oup.com/erae/advance-article/doi/10.1093/erae/jbag020/8894934). ***European Review of Agricultural Economics***, September 2026
 </summary>
 <p>
  **Abstract**:
